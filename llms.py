@@ -267,7 +267,7 @@ if __name__ == "__main__":
     results = create_verification_prompt(data, model, processor, new_token=10, label=num_label, has_summary=has_summary, has_table=has_table)
     g, p, new_results = retrieve_verification_results(results, label=num_label, cased=cased)
 
-    with open('./{}_FC_result-{}.json'.format(args.type_data, args.llm.split("/")[-1]), 'w', encoding='utf-8') as f:
+    with open('./{}_FC_result-{}.json'.format(args.data_name, args.model.split("/")[-1]), 'w', encoding='utf-8') as f:
         json.dump(new_results, f, ensure_ascii=False, indent=4)
     f.close()
 
