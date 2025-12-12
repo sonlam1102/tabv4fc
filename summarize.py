@@ -14,23 +14,7 @@ from nltk.tokenize import word_tokenize
 import bert_score
 from adopt import ADOPT
 import argparse
-
 from rouge_score import rouge_scorer
-
-
-# def qt_summ_load():
-#     train = load_dataset("yale-nlp/QTSumm", split="train")
-#     dev = load_dataset("yale-nlp/QTSumm", split="validation")
-#     test = load_dataset("yale-nlp/QTSumm", split="test")
-
-#     return train, dev, test
-
-# def scigen_load():
-#     train = load_dataset("kasnerz/scigen", split="train")
-#     dev = load_dataset("kasnerz/scigen", split="validation")
-#     test = load_dataset("kasnerz/scigen", split="test")
-
-#     return train, dev, test
 
 def change_table(col_lst, content_lst):
     df = {}
@@ -247,42 +231,9 @@ if __name__ == "__main__":
     sc_dev = sc_parse(sc_dev)
     sc_test = sc_parse(sc_test)
 
-    # print(sc_dev[2])
-    # print(qt_test[4])
 
     combined_train = qt_train + sc_train
     print(len(combined_train))
-    # new_sc = sc_parse(sc_train)
-    # print(new_sc[0]['table_df'])
-
-    # fe = make_features(tokenizer, new_qt)
-    # data = DataLoader(fe, batch_size=8)
-    # print(data)
-
-
-    # ## ERROR ANALYSIS
-    # tokenizer = TapexTokenizer.from_pretrained("./model/tapex_large_200/encoder/")
-    # label_tokienizer = BartTokenizer.from_pretrained("./model/tapex_large_200/decoder/")
-    # model = BartForConditionalGeneration.from_pretrained("./model/tapex_large_200/model/")
-
-    # sample_pred1, sample_ground1 = eval_tapex(tokenizer, label_tokienizer, model, qt_dev[0:5])
-    # sample_pred2, sample_ground2 = eval_tapex(tokenizer, label_tokienizer, model, sc_dev[0:5])
-
-    # for i in range(0, 5):
-    #     qt_dev[i]['table_df'].to_csv("./samples/qt_sum_table_{}.csv".format(i))
-    #     sc_dev[i]['table_df'].to_csv("./samples/scigen_table_{}.csv".format(i))
-
-    # sample1 = pd.DataFrame({
-    #     "pred": sample_pred1,
-    #     "ground": sample_ground1
-    # })
-    # sample1.to_csv("./samples/qt_sum_pred.csv")
-
-    # sample2 = pd.DataFrame({
-    #     "pred": sample_pred2,
-    #     "ground": sample_ground2
-    # })
-    # sample2.to_csv("./samples/scigen_pred.csv")
 
 
     if args.test == False:
