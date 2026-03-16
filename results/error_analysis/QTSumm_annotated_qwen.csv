@@ -1,0 +1,636 @@
+id,table,predict,truth,Missing information,Numerical extraction errors,Entity extraction errors,Redundant facts
+qtsum_dev_1,"Texas Vs Overall Record  Austin Opponent 'S Venue Neutral Site Last 5 Meetings Last 10 Meetings Current Streak
+ 0  Baylor  Ut , 57 - 23 Ut , 27 - 5 Ut , 22 - 13  Ut , 7 - 2 Bu , 3 - 2  Tied , 5 - 5 L 2
+ 1  Colorado Ut , 14 - 4  Ut , 6 - 1 Ut , 6 - 2  Ut , 2 - 1 Ut , 4 - 1  Ut , 8 - 2 W 1
+ 2  Iowa State  Isu , 10 - 9  Ut , 6 - 2  Isu , 5 - 2 Isu , 3 - 1  Isu , 3 - 2  Tied , 5 - 5 L 2
+ 3  Kansas Ut , 11 - 7  Ut , 4 - 3 Tied , 4 - 4  Ut , 3 - 0 Ut , 3 - 2  Ut , 7 - 3 W 1
+ 4  Kansas State Ut , 10 - 8  Ut , 6 - 2  Ksu , 4 - 3 Ksu , 2 - 1 Ut , 3 - 2 Ksu , 6 - 4 L 1
+ 5  Missouri Ut , 15 - 1  Ut , 9 - 0 Ut , 5 - 1  Ut , 1 - 0 Ut , 5 - 0  Ut , 9 - 1 W 8
+ 6  Nebraska Ut , 12 - 5  Ut , 6 - 1 Ut , 4 - 3  Ut , 2 - 1 Ut , 3 - 2  Ut , 8 - 2 L 2
+ 7  Oklahoma  Ut , 21 - 13 Ut , 11 - 4 Tied , 7 - 7  Ut , 3 - 2 Ou , 3 - 2  Tied , 5 - 5 W 1
+ 8  Oklahoma State Ut , 21 - 7 Ut , 11 - 2 Ut , 7 - 4  Ut , 2 - 1  Osu , 3 - 2  Ut , 7 - 3 L 2
+ 9 Texas A&M  Ut , 58 - 15 Ut , 28 - 4  Ut , 23 - 8  Ut , 7 - 3  A&M , 4 - 1  Tied , 5 - 5 L 3
+ 10 Texas Tech  Ut , 55 - 24 Ut , 25 - 6 Ut , 17 - 13 Ut , 13 - 4  Ttu , 3 - 2 Ttu , 6 - 4 W 2","The Texas Longhorns Women’s Basketball team has an overall record of 58-15 and an overall record of 28-4. They are tied with Texas A&M at 7-3 in the last 5 meetings and the current streak is 3 losses. Texas A&M has an overall record of 4-1.","The Texas Longhorns Women's Basketball team has a dominant 58-15 all-time record against the Texas A&M Aggies. When playing in Austin, the Longhorns have won every matchup with a record of 28-4. Additionally, they are 23-8 at A&M's venue and 7-3 on neutral sites for a combined record of 58 wins and 15 losses. In their last five meetings against Texas A&M, the Longhorns have held an advantage with a 4-1 record and in their last ten they are tied 5-5. Currently, the Longhorns are on a three game losing streak to the Aggies.",1,1,0,0
+qtsum_dev_2,"Game Date  Score Location Time Attendance
+ 0 1  October 9 Los Angeles Dodgers – 2, Philadelphia Phillies – 3 Citizens Bank Park 2:36  45,839
+ 1 2 October 10 Los Angeles Dodgers – 5, Philadelphia Phillies – 8 Citizens Bank Park 3:33  45,883
+ 2 3 October 12 Philadelphia Phillies – 2, Los Angeles Dodgers – 7 Dodger Stadium 2:57  56,800
+ 3 4 October 13 Philadelphia Phillies – 7, Los Angeles Dodgers – 5 Dodger Stadium 3:44  56,800
+ 4 5 October 15 Philadelphia Phillies – 5, Los Angeles Dodgers – 1 Dodger Stadium 3:14  56,800","The data given shows that the attendance of spectators in the three games at Citizens Bank Park was much lower than that in Dodger Stadium. In the first game, the Dodgers won over the Phillies by a score of 5-2 in just 2 hours and 37 minutes. However, in the second game, the Dodgers claimed a victory with a score of 7-2 in only 2 hours and 57 minutes. The difference in attendance between the two stadiums is of 4,800 fans, with 56,800 people in Citizens Bank Park and 56,800 in Dodger Stadium.","The number of people watching was different between Citizens Bank Park in Philadelphia and Dodger Stadium in Los Angeles. Dodger Stadium always had more people in all three games played there, with 56,800 people each time. In compare, Citizens Bank Park in Philadelphia had a bit less people with 45,839 people in the first game and 45,883 in the second game.",1,1,1,1
+qtsum_dev_3,"City County Population Date chartered as city Date consolidated with town
+ 0 Ansonia  New Haven  18,531  1893 1893
+ 1  Bridgeport  Fairfield 144,229  1836 1889
+ 2 Bristol Hartford  61,353  1911 1911
+ 3 Danbury  Fairfield  80,893  1889 1965
+ 4 Derby  New Haven  12,903  1893 1893
+ 5  Groton New London  10,010  1964 Not consolidated
+ 6  Hartford Hartford 124,775  1784 1896
+ 7 Meriden  New Haven  59,653  1867 1922
+ 8  Middletown  Middlesex  47,481  1784 1924
+ 9 Milford  New Haven  52,759  1959 1959
+ 10  New Britain Hartford  71,254  1870 1906
+ 11  New Haven  New Haven 129,779  1784 1897
+ 12 New London New London  27,620  1784 1874
+ 13  Norwalk  Fairfield  85,603  1893 1913
+ 14  Norwich New London  40,493  1784 1952
+ 15  Shelton  Fairfield  39,559  1915 1915
+ 16 Stamford  Fairfield 122,643  1893 1949
+ 17 Torrington Litchfield  36,383  1923 1923
+ 18  Waterbury  New Haven 110,366  1853 1902
+ 19 West Haven  New Haven  52,721  1961 1961
+ 20 Winsted Administered by the town of Winchester Litchfield 7,321  1917 1915","The city in New London County that is not listed in the table is Derby, which has a population of 12,903, and New London, which is a city with a population of 10,010. Derby is the largest city in the county, with a population of 12,903, followed by New London, which has a population of 10,010.","In New London County, Connecticut, have three city: Groton, New London and Norwich. Groton have population of 10,010, New London have a population of 27,620 and Norwich have more big population of 40,493. These city not join with their town, and population show big difference between these three city in the county.",1,1,1,1
+qtsum_dev_4,"Nation Gold Silver Bronze Total
+ 0  Brazil 2 0 1  3
+ 1 United States 1 2 2  5
+ 2 Venezuela 1 0 1  2
+ 3  Mexico 0 1 0  1
+ 4 Chile 0 1 0  1
+ 5 Argentina 0 0 3  3
+ 6  Canada 0 0 1  1","Three nations won bronze medal in tennis at the 1999 Pan American Games. These nations were Brazil, Venezuela,Mexico, Chile and Canada. Brazil won 2 gold medals, 1 silver medal and 3 bronze medals. The United States also won 2 gold medals, 2 silver medals and 2 bronze medals. Venezuela won 1 gold medal and 1 bronze medal, Mexico won 1 silver medal and 1 bronze medal, Chile won 1 silver medal and 1 bronze medal, and Canada won 1 silver medal and 1 bronze medal.","At the 1999 Pan American Games, five nations won bronze medals in Tennis, with varying amounts. Brazil, Venezuela, Canada each won one bronze medal, and the United States won two, while Argentina won three.",1,1,1,1
+qtsum_dev_5,"Island Main Town or Capital  Other Towns Area (km²) Population
+ 0  Vanua Levu Group  Labasa  Savusavu, Bua  6261  138000
+ 1  Buca Bay Islands  0.042 0
+ 2 Cikobia-i-Lau  12.46 1
+ 3 Dogodogo Island 0.19 0
+ 4  East Macuata Coast Islands 7.65 1
+ 5  Kia Island 1.69 1
+ 6  Kioa Salia Lomanikoro, Matagi, Naba, Naumu, Niu Degree, Nukusa, Silver Bay, Fiji, Tafatai Lasi, Taite, Temotu, Vunikura 19.32 400
+ 7 Korolevu Island  1 0
+ 8 Laucala Laucala  12.4 300
+ 9  Mali Islands  9.255 1
+ 10  Matagi Island 0.97 1
+ 11  Namena Lala  0.455 1
+ 12 Navidamu Islands  32.72 1
+ 13 Nukubati Islands  Nukubati 0.623  10
+ 14  Other  0.271  1031
+ 15  Qamea  Kocoma Dreketi, Nadiodio, Naiviivi, Togo, Vatusogosogo, Waibulu  34.5  2182
+ 16  Rabi Island Tabwewa Buakonikai, Tabiang, Uma  67.3  5000
+ 17 Ringgold Isles Qelelevu (Nalutu) , Nanuku, Nukubalati, Yanuca  6.12  50
+ 18  Taveuni Waiyevo Bouma, Deleni, Gacaavulu, Kanacea, Korovou, Lavena, Matei, Naqara, Naselesele, Navakawau, Salialevu, Somosomo, Soqulu, Vuna, Wairiki, Welagi 434.5  9000
+ 19 Vanua Levu  Labasa Bua, Nabiti, Nadivakarua, Nailou, Sasa, Savusavu, Solevu, Wainigadru  5587.1  120000
+ 20  Viani Coast Islands 0.78 6
+ 21  Viubani Islands  0.284 2
+ 22 Vorovoro 0.43 1
+ 23 West Macuata Coast Islands Macuata-i-Wai Cukini, Nagano, Nukunuku, Talailau 15.93  10
+ 24  Yadua  14.31 1
+ 25 Yadua Tabu  0.7 0","The table show there have 120000 islands in Vanua Levu group of Fiji no have any people. The bigest area in these no human population islands is Vanua Levu which have 5587.1 km².","In Vanua Levu Group of Fiji, have 4 islands with no people live. Among these no people islands, the biggest one in area size is Korolevu Island, it have 1 km².",1,1,1,1
+qtsum_dev_6,"Part Number First public release date (First edition) Latest correction Title Description
+ 0 Part 1  ISO/IEC 11172-1 1993 1999 Systems  
+ 1 Part 2  ISO/IEC 11172-2 1993 2006 Video  
+ 2 Part 3  ISO/IEC 11172-3 1993 1996 Audio  
+ 3 Part 4  ISO/IEC 11172-4 1995 2007  Compliance testing  
+ 4 Part 5 ISO/IEC TR 11172-5 1998 2007 Software simulation","We analyzed the Mpeg-1 dataset without translation, keeping only the version available in English. We think the biggest difference between these datasets is in the nature of description. The first part of the dataset all introduces systems, and not so much the latest version. In the second part, we have shown the use of video and audio features. However, the content of the third part focuses on audio, rather than video. The last part of the dataset focuses on compliance testing, with the subtitle model being called compliance simulation. This is probably related with the fact that it is the only one dataset that has been tested in such a way.","The five part of MPEG-1 have different description and focus area. Part 1, ISO/IEC 11172-1, is about system, but Part 2, ISO/IEC 11172-2, is relate to video of standard. Different, Part 3, ISO/IEC 11172-3, mainly talk about audio part. Last, Part 4, ISO/IEC 11172-4, is deal with compliance test, and Part 5, ISO/IEC TR 11172-5, is focus on software simulation.",0,0,0,1
+qtsum_dev_7,"Rank  Name  Height ft / m Image Floors Year Notes
+ 0  1 Indiana Michigan Power Center 442 feet (135 m) -  27 1982  Tallest building in Fort Wayne since 1982, fourth-tallest building in Indiana, and tallest outside of Indianapolis. Formerly known as One Summit Square.
+ 1  2  PNC Center 339 feet (103 m)  National City Center.JPG  26 1970 Tallest building in Fort Wayne from 1970–1982, currently the 11th tallest building in the state of Indiana. Formerly known as Fort Wayne National Bank Building and National City Center.
+ 2  3  Lincoln Bank Tower  312 feet (95 m) -  22 1930 Tallest building in Fort Wayne from 1930–1970 and tallest building in Indiana from 1930–1962. Market headquarters for Old National Bank and predecessor Tower Bank.
+ 3  4 Allen County Courthouse  238 feet (73 m) - 3 1902 Listed to the National Register of Historic Places in 1976, later recognized as a National Historic Landmark in 2003.
+ 4  5 First Presbyterian Church  220 feet (67 m) - 3 1950 
+ 5  6  Saint Paul's Evangelical Lutheran Church  214 feet (65 m) - 2 1889 Listed to the National Register of Historic Places in 1982.
+ 6  7 St. Peter's Catholic Church  211 feet (64 m) - 2 1892 Listed to the National Register of Historic Places in 1991.
+ 7  8  Zion Evangelical Lutheran Church  210 feet (64 m) - 2 1891 
+ 8  9  Cathedral of the Immaculate Conception  192 feet (59 m) - 2 1860  Oldest standing religious structure in the city, listed to the National Register of Historic Places in 1980.
+ 9 10 Trinity English Lutheran Church  179 feet (55 m) - 2 1923 
+ 10  11 STAR Building  172 feet (52 m) -  13 1923  Headquarters of STAR Financial Group. Also known as the Commerce Building from 1970-1999 and the Fort Wayne National Bank Building from 1923-1970.
+ 11  12 First Federal Bank Center at the Anthony Wayne Building  167 feet (51 m) Anthony Wayne Building, Fort Wayne, Indiana.JPG  15 1964  Mixed-use building that is home to market headquarters for First Federal Bank of the Midwest, condominiums, regional offices for U.S. Senator Mike Braun, and The Hoppy Gnome/Gnometown Brewing brewpub.
+ 12  13 Skyline Terrace  164 feet (50 m) 12 2018 Second-tallest mixed use condominium/office building in Fort Wayne. First floor is occupied by Ruth's Chris Steak House; second floor is market headquarters for First Merchants Bank (predecessor bank iAB Financial Bank never had a downtown Fort Wayne presence).","The table show the tallest building in Fort Wayne is Indiana Michigan Power Center standing at 442 feet (135 meters) and also the shortest building is Trinity English Lutheran Church at 179 feet (55 meters). Other interesting building in Fort Wayne is PNC Center, it is 339 feet (103 meters) tall, and Lincoln Bank Tower, it is 312 feet (95 meters).","According to the table, the tallest building in Fort Wayne is the Indiana Michigan Power Center, standing at a height of 442 feet (135 meters). On the other hand, the shortest building is Skyline Terrace, with a height of 164 feet (50 meters). Both buildings represent the extremes of architectural elevation within the city.",1,1,0,0
+qtsum_dev_8,"Date Pos  Player  From Club Transfer Fee
+ 0  Sep 2008 Fw Marcello Trotta Napoli  750000
+ 1 12 Oct 2008 Df Oliver Nicholas  Arsenal  Free
+ 2 20 Oct 2008 Mf  Alex Pla  Ud Cornellà  Undisc
+ 3 20 Oct 2008 Mf Jorge Guinovart  Ud Cornellà  Undisc
+ 4 17 Feb 2009 Df  Jérémy Helan Rennes  Undisc
+ 5 25 Feb 2009 Gk  Gunnar Nielsen Blackburn Rovers  Free","The table only contains information from the 2008-09 season, that is when Manchester City F.C. signed Alex Pla from UD Cornellà for no fee, and Jorge Guinovart from UD Cornellà for no fee.","Manchester City F.C. signed two players from Ud Cornellà in the 2008-09 season: Alex Pla and Jorge Guinovart. Both transfers were announced on the same day, October 20th 2008, and neither player was a subject to a disclosed transfer fee. Both Alex Pla and Jorge Guinovart play in the Mf position.",0,0,1,1
+qtsum_dev_9,"Game  Date  Opponent Result Hurricanes Points Opponents  Record
+ 0 1 Sept 17  Colorado Win 24  3 1 - 0 - 0
+ 1 2 Sept 24 Florida State  Loss 20 23 1 - 1 - 0
+ 2 3 Oct 1 Louisiana State  Loss  8 10 1 - 2 - 0
+ 3 4  Oct 14 Georgia Win  7  6 2 - 2 - 0
+ 4 5  Oct 21 Indiana Win 14  7 3 - 2 - 0
+ 5 6  Oct 28 Southern California Win 10  7 4 - 2 - 0
+ 6 7 Nov 5  Tulane Tie 10 10 4 - 2 - 1
+ 7 8  Nov 11  Pittsburgh Win 38 14 5 - 2 - 1
+ 8 9  Nov 18  Iowa Win 44  0 6 - 2 - 1","The information from the table shows that the 1966 Miami Hurricanes Football Team played against the Southern California twice during the season. The first game was on October 28 and resulted in a win for the Hurricanes with a score of 10 to 7. The second game was on November 11 and the Hurricanes won again by a score of 38 to 14.","The game between the 1966 Miami Hurricanes Football Team and the Southern California was an intense one. On October 28，the Hurricanes were able to come away with a 10-7 win, their fourth of the season, thanks to a strong defensive effort.",1,0,1,1
+qtsum_dev_10,"Artist Single Released Sales (in millions) Source
+ 0  Robin Thicke featuring T.I. and Pharrell  ""Blurred Lines""  2013 14.8  
+ 1 Lady Gaga ""Poker Face""  2008 14 [unreliable source?]
+ 2 Maroon 5 featuring Christina Aguilera  ""Moves like Jagger""  2011 13.9 [unreliable source?]
+ 3 Pharrell Williams  ""Happy""  2013 13.9  
+ 4 Psy  ""Gangnam Style""  2012 13.5  
+ 5  Maroon 5  ""Sugar""  2015 13.5  
+ 6  Macklemore and Ryan Lewis featuring Wanz  ""Thrift Shop""  2012 13.4  
+ 7  Katy Perry featuring Juicy J ""Dark Horse""  2013 13.2  
+ 8 Major Lazer & DJ Snake featuring MØ  ""Lean On""  2015 13.1  
+ 9  Gotye featuring Kimbra ""Somebody That I Used to Know""  2011 13  
+ 10 Eminem featuring Rihanna ""Love the Way You Lie""  2010 12.8 [unreliable source?]
+ 11 Ellie Goulding  ""Love Me like You Do""  2015 12.6  
+ 12  Drake featuring Wizkid and Kyla  ""One Dance""  2016 12.5  
+ 13 Bruno Mars ""Just the Way You Are""  2010 12.5  
+ 14  Adele  ""Hello""  2015 12.3  
+ 15  John Legend  ""All of Me""  2013 12.3  
+ 16 Jason Mraz  ""I'm Yours""  2008 12.2  
+ 17 Flo Rida featuring Kesha  ""Right Round""  2009 12  
+ 18  Flo Rida featuring T-Pain  ""Low""  2007 12","Yes, according to the information from the table, a total of four singles were released in 2015. These singles include Maroon 5's ""Sugar,"" Major Lazer & DJ Snake's ""Lean On,"" Ellie Goulding's ""Love Me Like You Do,"" and Adele's ""Hello."" The average sales record for these singles is approximately 13.5 million copies sold.","In table, have 4 single released in 2015 year. Their sales record average about 12.875 million copy.
+ Corrected Statement:",0,1,0,0
+qtsum_dev_11,"Position Name of Greyhound  Breeding Trap Sectional SP Time Trainer
+ 0 1st  Taylors Sky  Westmead Hawk - Rising Angel 1 4.80 7-4f 28.17+  Charlie Lister OBE (Private)
+ 1 2nd  Westmead Guru  Tyrur Ted - Westmead Swift 3 4.84  4-1  28.50 Kelly Findlay (Sittingbourne)
+ 2 3rd  Barefoot Bullet Honcho Classic - Ard Flashc 5 4.80  9-4  28.59 Paul Hennessy (Ireland)
+ 3 4th  Cloheena Cash  Crash - Leahs Ruby 6 4.83 11-1  28.61 Norah McEllistrim (Wimbledon)
+ 4 5th  Razldazl George Kinloch Brae - Razldazl Pearl 4 4.89  7-2  28.82  Dolores Ruth (Ireland)
+ 5 6th Bright Redcliffe Hallucinate - Youlbesolucky 2 4.94 16-1  28.94 John McGoldrick (Private)","We could see from the table that the best greyhound of them, Taylors Sky, has a bit better performance in trap, sectional and time than the other three greyhounds. Taylors Sky has a 7-4F in trap, 7-4F in sectional and a 28.17+ time, Westmead Guru has a 4.84 in trap, 4.84 in sectional and a 28.50 time, while Barefoot Bullet has a 9-4 in trap, 4.80 in sectional and 28.59 time. This show that Taylors Sky is better in trap, sectional and time than the other two greyhounds.","In 2011's English Greyhound Derby, the top three greyhounds, Taylors Sky, Westmead Guru, and Barefoot Bullet, had some different performances. First, Taylors Sky started from trap 1 and had best time of 28.17+ seconds, coming first place with a sectional of 4.80 seconds. In comparison, Westmead Guru started from trap 3 and got second with a time of 28.50 seconds and a bit slower sectional of 4.84 seconds. About Barefoot Bullet, it started from trap 5 and ended third with a time of 28.59 seconds. Interestingly, Barefoot Bullet had the same sectional like Taylors Sky, 4.80 seconds, showing their similar ability to speed up, but at last finishing with a more slow total time.",0,0,0,1
+qtsum_dev_12,"Game# Date Result Attendance  Notes
+ 0 1 24 November 1945 Wales def. England 26–10  30,000 1945–46 European Rugby League Championship
+ 1 2 16 November 1946  England def. Wales 19–5  25,000 1946–47 European Rugby League Championship
+ 2 3  12 April 1947 Wales def. France 12–5  12,000 1946–47 European Rugby League Championship
+ 3 4  18 October 1947 New Zealand def. Wales 28–20  18,283  1947 Wales vs New Zealand
+ 4 5  6 December 1947  England def. Wales 18–7  10,000 1947–48 European Rugby League Championship
+ 5 6  20 March 1948  France def. Wales 20–12 6,462 1948–49 European Rugby League Championship
+ 6 7 20 November 1948  Australia def. Wales 12–5 9,224  1948–49 Kangaroo Tour
+ 7 8  5 February 1949 Wales def. England 14–10 9,553 1948–49 European Rugby League Championship
+ 8 9  31 March 1951 Other Nationalities def. Wales 27–21 5,000 1950–51 European Rugby League Championship
+ 9  10 16 February 1975 Wales def. France 21–8  23,000  1975 European Rugby League Championship
+ 10 11  19 October 1975  Australia def. Wales 18–6  11,112  1975 Rugby League World Cup
+ 11 12  2 November 1975 Wales def. New Zealand 25–24 2,645  1975 Rugby League World Cup
+ 12 13  15 October 1978 Australia def. Wales 8–3 4,250 1978 Kangaroo Tour","From table information, England and France have played most games against Wales at St Helen's Rugby and Cricket Ground between 1945 and 1978. England have won five games, with scores of 26-10, 19-5, and 18-7. Wales have won three times, with scores of 12-5, 21-8, and 8-3. Other countries that play against Wales are New Zealand (3 times) and France (1 time). New Zealand drew the match with a score of 25-24.","Between 1945 to 1978, England and Australia have most games play with Wales at St. Helen's Rugby and Cricket Ground. England have four encounters with Wales, resulting two wins for every team. Australia faced Wales three times during this time, win all three games against Welsh side.",1,1,1,1
+qtsum_dev_13,"#  Name  Took Office  Left Office Term President who appointed the Governor
+ 0 1  Sardar Ujjal Singh  14 January 1969  27 May 1971 1 Zakir Hussain
+ 1 2 Kodardas Kalidas Shah  27 May 1971 16 June 1976 1 Varaha Venkata Giri
+ 2 3  Mohan Lal Sukhadia 16 June 1976 8 April 1977 1  Fakhruddin Ali Ahmed
+ 3 4 P. Govindan Nair (acting) 9 April 1977  27 April 1977 1 
+ 4 5 Prabhudas Patwari  27 April 1977  27 October 1980 1 Basappa Danappa Jatti
+ 5 6 M. M. Ismail (acting)  27 October 1980  4 November 1980 1 
+ 6 7 Sadiq Ali  4 November 1980 3 September 1982 1  Neelam Sanjiva Reddy
+ 7 8 Sundar Lal Khurana, IAS (Retired) 3 September 1982 17 February 1988 1  Giani Zail Singh
+ 8 9  P. C. Alexander, IAS (Retired) 17 February 1988  24 May 1990 1 R. Venkataraman
+ 9  10  Surjit Singh Barnala  24 May 1990 15 February 1991 1 R. Venkataraman
+ 10 11  Bhishma Narain Singh 15 February 1991  31 May 1993 1 R. Venkataraman
+ 11 12  Marri Chenna Reddy  31 May 1993  2 December 1996 1  Shankar Dayal Sharma
+ 12 13  Krishan Kant (additional charge)  2 December 1996  25 January 1997 1 
+ 13 14  M. Fathima Beevi  25 January 1997  3 July 2001 1  Shankar Dayal Sharma
+ 14 15 C. Rangarajan (additional charge)  3 July 2001  18 January 2002 1 
+ 15 16  P. S. Ramamohan Rao, IPS (Retired)  18 January 2002  3 November 2004 1  A. P. J. Abdul Kalam
+ 16 17  Surjit Singh Barnala  3 November 2004 31 August 2011 2 
+ 17 18  Konijeti Rosaiah 31 August 2011 30 August 2016 1  Pratibha Patil
+ 18 19 C. Vidyasagar Rao (additional charge) 2 September 2016 6 October 2017 1  Pranab Mukherjee
+ 19 20  Banwarilal Purohit 6 October 2017  Incumbent 1 Ram Nath Kovind","The table data shows that Surjit Singh Barnala served the longest term in office based on the dates of taking and leaving the office. His first term was from 24 May 1990 to 15 February 1991, and he was appointed by President R. Venkataraman. Barnala's second term was from 3 November 2004 to 31 August 2011.","On basis of date taking and leaving office, Surjit Singh Barnala having the longest time as Governor of Tamil Nadu. He is holding office from 3 November 2004 until 31 August 2011.",0,0,0,0
+qtsum_dev_14,"Rank Lane  Name Nationality  Time Notes
+ 0  5 Nathan Adrian United States 47.52  
+ 1  4 James Magnussen Australia 47.53  
+ 2  7  Brent Hayden  Canada 47.80  
+ 3 4 1 Yannick Agnel  France 47.84  
+ 4 5 6 Sebastiaan Verschuren Netherlands 47.88  
+ 5 6 2 César Cielo  Brazil 47.92  
+ 6 7 3 Hanser García  Cuba 48.04  =NR
+ 7 8 8  Nikita Lobintsev  Russia 48.44","The rider who had the fastest time in the Men's 100 metre freestyle at the 2012 Summer Olympics was Hanser García from Cuba. His time was 48.04 seconds.","Hanser García have seventh quick time in Men's 100 metre freestyle at 2012 Summer Olympics, he represent Cuba.",1,1,0,0
+qtsum_dev_15,"Outcome No. Year Championship Opponent in the final Score
+ 0 Runner-up 1. 1990 Grand Prix Scotland Stephen Hendry 5–10
+ 1 Runner-up 2. 1995 World Snooker Championship Scotland Stephen Hendry 9–18
+ 2 Runner-up 3. 1995 Thailand Classic  England John Parrott  6–9
+ 3  Winner 1. 1996 British Open Scotland John Higgins  9–8
+ 4 Runner-up 4. 1997  Thailand Open England Peter Ebdon  7–9","Nigel Bond's opponents in the final matches were Stephen Hendry from Scotland, John Parrott from England, and Peter Ebdon from England. He won two of his eight final matches against Hendry, while he lost three times.","Nigel Bond faced total five opponents in final matches of different championships. He competed with Scotland's Stephen Hendry in both 1990 Grand Prix and 1995 World Snooker Championship, losing with scores 5-10 and 9-18, respectively. Bond also lose to England's John Parrott in 1995 Thailand Classic with 6-9 score and to England's Peter Ebdon in 1997 Thailand Open with 7-9 score, but he won against Scotland's John Higgins in 1996 British Open with close 9-8 victory.",1,1,0,0
+qtsum_dev_16,"Conf. Rank Team  Head coach AP final AP high Overall record Conf. record  PPG  PAG  MVP
+ 0 1 (tie) Michigan Bo Schembechler  #5 #3  10–2 7–1 31.0  8.8 Rick Leach
+ 1 1 (tie) Michigan State Darryl Rogers #12  #12 8–3 7–1 37.4 15.5 Ed Smith
+ 2 3 Purdue Jim Young #13  #12 9–2–1 6–1–1 21.8 10.8 Keena Turner
+ 3 4 Ohio State Woody Hayes  NR #6 7–4–1 6–2 28.3 18.0  Tom Cousineau
+ 4 5  Minnesota Cal Stoll  NR NR 5–6 4–4 19.1 24.3 Marion Barber, Jr.
+ 5 6  Wisconsin  Dave McClain  NR NR 5–4–2 3–4–2 20.3 25.2 Mike Kalasmiki
+ 6 7  Indiana Lee Corso  NR NR 4–7 3–5 20.7 26.4 Joe Norman
+ 7 8 Iowa  Bob Commings  NR NR 2–9 2–6 11.4 26.5  Brad Reid
+ 8 9 Illinois  Gary Moeller  NR NR 1–8–2 0–6–2  9.4 28.8  John Sullivan
+ 9  10 Northwestern  Rick Venturi  NR NR  0–10–1 0–8–1  8.4 40.0 Pat Geegan","In 1978 Big Ten Conference football season, top 5 teams have MVPs that have strong relation with their success in overall records, conference records, and final AP ranks. For example, Michigan, which finish first in conference, have MVP Rick Leach and get #3 in AP rank. Same way, Michigan State, which finish second in conference, have MVP Ed Smith and get #12 AP rank. Purdue, which finish third in conference, have MVP Keena Turner and get #13 in AP rank. Ohio State, which finish fourth in conference, have MVP Tom Cousineau and get #6 in AP rank. Minnesota, which coach Cal Stoll, finish fifth in conference with overall record 5-6 and conference record 4-4, also have MVP Marcel Barber, Jr.","In the 1978 Big Ten Conference, the top 5 teams' MVPs seem to positively correlate with their teams' success in terms of overall records, conference records, and their final AP ranks. Michigan and Michigan State were tied for first place, both with 7-1 conference records, and were also led by strong MVP performances from Rick Leach and Ed Smith, respectively. Purdue followed closely, ranking third with a 6-1-1 conference record, and was led by Keena Turner, who certainly contributed to their team's achievements, including a #13 AP final ranking. Lastly, Ohio State and Minnesota, ranking fourth and fifth, had notable MVPs Tom Cousineau and Marion Barber, Jr., who played crucial roles in their teams' performances and overall records of 7-4-1 and 5-6, respectively.",0,0,0,0
+qtsum_dev_17,"Year Passengers Change
+ 0 2010 838,141 11.98%
+ 1 2011 873,351 4.2%
+ 2 2012 723,556 17.15%
+ 3 2013 621,896 14.05%
+ 4 2014 612,650  1.48%
+ 5 2015 673,097  9.86%
+ 6 2016 688,505  2.23%
+ 7 2017 692,154  0.50%
+ 8 2018 792,974 14.57%
+ 9 2019 0.00%","The data from this table show that the most high recorded passenger traffic was in 2019. In this year, the airport record total passenger traffic was 792,974. This number is representing a 14.57% increase from the previous year.","The year have most high recorded passenger traffic at Lehigh Valley International Airport was 2000. The total number of passengers that year was 1,013,710.",1,1,1,1
+qtsum_dev_18,"Rank Name Years League Total
+ 0 1  Giuseppe Meazza 1927 - 1940 1946 - 1947 247  284
+ 1 2 Alessandro Altobelli 1977 - 1988 128  209
+ 2 3 Roberto Boninsegna 1969 - 1976 113  171
+ 3 4 Sandro Mazzola 1960 - 1977 116  160
+ 4 5 Luigi Cevenini 1912 - 1915 1919 - 1921 1922 - 1927 158  158
+ 5 6 Benito Lorenzi 1947 - 1958 138  143
+ 6 7 István Nyers 1948 - 1954 133  133
+ 7 8  Christian Vieri 1999 - 2005 103  123
+ 8 9 Ermanno Aebi 1909 - 1915 1919 - 1923 106  106
+ 9  10  Mario Corso 1958 - 1973  75 94","The table contains the information of 10 players who had over 100 league appearances for Inter Milan between 1909 and 1923. These players included Giuseppe Meazza, who played for the club from 1927 to 1940 and again from 1946 to 1947, Alessandro Altobelli, who was played for the club from 1977 to 1988 and played total of 209 matches, Roberto Boninsegna, who played from 1969 to 1976, Sandro Mazzola, who played from 1960 to 1977, Luigi Cevenini, who played from 1912 to 1915, and István Nyers, who played from 1948 to 1954. Lastly, Ermanno Aebi, who played for the club from 1909 to 1915 and from 1919 to 1923, was also included in the table.","The players who had over 100 league appearances for Inter Milan between 1909 and 1923 was Ermanno Aebi. He played from 1909 to 1915 and again from 1919 to 1923. During his time at Inter Milan, he had a total of 106 appearances.",1,0,1,0
+qtsum_dev_19,"Draw  Country Artist  Song Language Place Points
+ 0 01  Netherlands  Thérèse Steinmetz ""Ring-dinge-ding""  Dutch 14 2
+ 1 02 Luxembourg Vicky Leandros  ""L'amour est bleu"" French  4  17
+ 2 03  Austria Peter Horton ""Warum es hunderttausend Sterne gibt"" German 14 2
+ 3 04 France Noëlle Cordier ""Il doit faire beau là-bas"" French  3  20
+ 4 05 Portugal Eduardo Nascimento ""O vento mudou"" Portuguese 12 3
+ 5 06  Switzerland  Géraldine  ""Quel cœur vas-tu briser?"" French 17 0
+ 6 07 Sweden  Östen Warnerbring ""Som en dröm""  Swedish  8 7
+ 7 08  Finland  Fredi ""Varjoon – suojaan""  Finnish 12 3
+ 8 09  Germany Inge Brück ""Anouschka"" German  8 7
+ 9 10  Belgium  Louis Neefs ""Ik heb zorgen""  Dutch  7 8
+ 10  11 United Kingdom  Sandie Shaw  ""Puppet on a String""  English  1  47
+ 11  12  Spain  Raphael ""Hablemos del amor""  Spanish  6 9
+ 12  13 Norway Kirsti Sparboe ""Dukkemann""  Norwegian 14 2
+ 13  14 Monaco Minouche Barelli ""Boum-Badaboum"" French  5  10
+ 14  15 Yugoslavia  Lado Leskovar  ""Vse rože sveta""  Slovene  8 7
+ 15  16  Italy  Claudio Villa  ""Non andare più lontano""  Italian 11 4
+ 16  17  Ireland  Sean Dunphy ""If I Could Choose""  English  2  22","During the Eurovision Song Contest 1967, there were four contestants who performed in French. These included Vicky Leandros from Luxembourg, who secured the 4th place with 17 points, Noëlle Cordier from France, who secured the 3rd place with 20 points, Géraldine from Switzerland, who won the 17th place with 0 points, and Monouche Barelli from Monaco, who placed 5th with 10 points.","In the Eurovision Song Contest 1967, four contestants performed in French. Luxembourg's Vicky Leandros sang ""L'amour est bleu"" and placed 4th, earning 17 points. France's Noëlle Cordier performed ""Il doit faire beau là-bas"" and secured 3rd place with 20 points. Lastly, Monaco's Minouche Barelli sang ""Boum-Badaboum"" and finished at 5th place, receiving 10 points. Switzerland's Géraldine also sang in French, but with ""Quel cœur vas-tu briser?"", they placed 17th, earning no points.",0,0,0,0
+qtsum_dev_20,"No. overall No. in series  Title  Directed by Written by Original air date Prod. code UK viewers (millions)
+ 0  14  1 ""Kiss Kiss, Bang Bang"" Ashley Way Chris Chibnall  16 January 2008 2.1 4.22
+ 1  15  2  ""Sleeper"" Colin Teague  James Moran  23 January 2008 2.2 3.78
+ 2  16  3  ""To the Last Man"" Andy Goddard Helen Raynor  30 January 2008 2.3 3.51
+ 3  17  4 ""Meat"" Colin Teague Catherine Tregenna  6 February 2008 2.4 3.28
+ 4  18  5 ""Adam"" Andy Goddard Catherine Tregenna 13 February 2008 2.5 3.79
+ 5  19  6  ""Reset"" Ashley Way  J. C. Wilsher 13 February 2008 2.6 4.07
+ 6  20  7 ""Dead Man Walking"" Andy Goddard Matt Jones 20 February 2008 2.7 4.32
+ 7  21  8 ""A Day in the Death"" Andy Goddard Joseph Lidster 27 February 2008 2.8 4.26
+ 8  22  9 ""Something Borrowed"" Ashley Way  Phil Ford 5 March 2008 2.9 3.75
+ 9  23 10 ""From Out of the Rain"" Jonathan Fox Bassett Peter J. Hammond  12 March 2008  2.10 3.85
+ 10 24 11 ""Adrift"" Mark Everest Chris Chibnall  19 March 2008  2.11 3.49
+ 11 25 12  ""Fragments"" Jonathan Fox Bassett Chris Chibnall  21 March 2008  2.12 3.69
+ 12 26 13  ""Exit Wounds"" Ashley Way Chris Chibnall 4 April 2008  2.13 3.13","The table show the viewer number for Torchwood, Series 2 in 2008, is 4.22 million. The episode directed by Ashley Way and written by Chris Chibnall.","The high number of viewers in Torchwood, Series 2, 2008 episode is ""Dead Man Walking"" with 4.32 million peoples. Matt Jones is writer of it.",1,0,0,0
+qtsum_dev_21,"Name Opened  Manufacturer (Model)  Description Thrill rating
+ 0  Diamondback  2009  Bolliger & Mabillard (Hyper coaster) A steel hypercoaster that is 230 feet (70 m) tall and 5,282 feet (1,610 m) long with a top speed of 80 mph (130 km/h).  5
+ 1 Kings Island & Miami Valley Railroad  1972 Crown Metal Products Company (3 ft (914 mm) narrow gauge 4-4-0 Steam Train)  A steam locomotive ride that travels in a 5,585-foot (1,702 m) loop that provides transportation between the main park and Soak City.  1
+ 2 Mystic Timbers  2017  Great Coasters International A wooden roller coaster that is 109 feet (33 m) tall and 3,265 feet (995 m) long with a top speed of 53 mph (85 km/h).  4
+ 3  The Beast  1979  Kings Island  A wooden roller coaster constructed and designed internally by Kings Island, which consistently remains a top roller coaster among many industry experts and enthusiasts.  5
+ 4 White Water Canyon  1985  Intamin (Rapid Ride) River rafting ride that takes riders on a winding course through the densely wooded terrain in Kings Island's Rivertown. Riders are placed in circular inner-tube rafts that seat up to six.  4","The Beast, a wooden roller coaster constructed and designed internally by Kings Island, is unique among other rides in Kings Island - Rivertown for its construction and design. It remains the only ride that remains the same in the park. Other rides were built and/or designed by other companies, but they were not built and/or designed by Kings Island. The Beast is the only ride that has been in the park for over 35 years.","The Beast is stand out from other rides in Kings Island - Rivertown because it has unique construction and design. Not like other roller coasters, like Diamondback and Mystic Timbers, which was made by outside companies, The Beast was build and design inside by Kings Island. This different way make it always be top roller coaster between people who know about this industry and enjoy it.",0,0,0,0
+qtsum_dev_22,"Venue  Sports(s)  Location Capacity Cost (MNOK) Ref(s)
+ 0  Birkebeineren Ski Stadium Biathlon, cross-country skiing, Nordic combined (cross-country skiing) Lillehammer  34,000 81 
+ 1 Gjøvik Olympic Cavern Hall Ice hockey  Gjøvik 5,300 92 
+ 2 Håkon Hall Ice hockey Lillehammer  10,500  240 
+ 3 Hamar Olympic Amphitheatre  Figure skating, short track speed skating Hamar 6,000 87 
+ 4 Hamar Olympic Hall  Speed skating Hamar  10,600  222 
+ 5 Kanthaugen Freestyle Arena Freestyle skiing Lillehammer  15,000 17 
+ 6  Lillehammer Olympic Alpine Centre Hafjell Alpine skiing (slalom, giant slalom, combined)  Øyer  30,000 72 
+ 7  Lillehammer Olympic Alpine Centre Kvitfjell  Alpine skiing (downhill, super-G, combined) Ringebu  41,000  122 
+ 8 Lillehammer Olympic Bobsleigh and Luge Track  Bobsleigh, luge Lillehammer  10,000  204 
+ 9  Lysgårdsbakkene Ski Jumping Arena Nordic combined (ski jumping), ski jumping, opening and closing ceremonies Lillehammer  35,000  135","The table show the capacity of Lillehammer Olympic Centre Kvitfjell is bigger than other venues in the list. It can hold 41,000 athletes for Alpine skiing (Downhill, Super-G, Combined), which is more than the smallest venue. But the biggest capacity venue is Lillehammer Olympic Arena, which can hold 35,000 athletes for Alpine Jumping (Cross-Country) and also has the cost of 120 million Norwegian Marks.","The Lillehammer Olympic Alpine Center Kvitfjell can hold 41,000 persons, so it one of biggest place of 1994 Winter Olympics. Only Lysgårdsbakkene Ski Jumping Arena little smaller, hold 35,000 persons. This place, in Ringebu, made for Alpine skiing, like downhill, super-G, and combined. When we look other places, this one much bigger than ice hockey, figure skate, or speed skate places, and more than two times bigger than Kanthaugen Freestyle Arena.",0,1,1,0
+qtsum_dev_23,"Outcome No. Year Championship Opponent in the final Score
+ 0 Runner-up 1. 1998  UK Championship Scotland John Higgins  6–10
+ 1 Runner-up 2. 1999  UK Championship (2) Wales Mark Williams  8–10
+ 2 Runner-up 3. 2000 World Snooker Championship Wales Mark Williams 16–18
+ 3  Winner 1. 2003  UK Championship Scotland Stephen Hendry  10–8
+ 4 Runner-up 4. 2005  Irish Masters England Ronnie O'Sullivan  8–10
+ 5 Runner-up 5. 2005 World Snooker Championship (2)  England Shaun Murphy 16–18
+ 6 Runner-up 6. 2008 Bahrain Championship  Australia Neil Robertson 7–9
+ 7 Runner-up 7. 2013 World Open Northern Ireland Mark Allen  4–10","In summary, Matthew Stevens' performance in the World Snooker Championship has significantly improved over the years. In 2000, he was a runner-up to Mark Williams from Wales, with a final score of 16-18. However, in 2005, he faced England's Shaun Murphy in the final, but lost to Stevens with a close score of 16-18.","Matthew Stevens join World Snooker Championship finals two times. In 2000 year, he get runner-up, lose to same Welsh player Mark Williams, score close 16-18. Stevens again get same position in 2005 event, this time play with English player Shaun Murphy and lose again with score 16-18.",0,0,0,0
+qtsum_dev_24,"Year Popular vote % of popular vote # of seats Seat change  Coalitions  Government
+ 0 2007 214,262  5.31% 6 / 250  6 With GSS−SDU−LSV−DHSS  opposition
+ 1 2008 216,902  5.24%  11 / 250  5 With DHSS−SDU  opposition
+ 2 2012 255,546  6.53%  12 / 250  1  U-Turn  opposition
+ 3 2014 120,879  3.36% 0 / 250 12 With SDU−BDZS non-parliamentary
+ 4 2016 189,564  5.02% 4 / 250  4  With SDS−LSV  opposition","The party's association with various coalitions has had a significant impact on the number of seats won in the parliamentary elections. In the first six elections after formation, the Democratic Party (DSA) won 6 out of 250 seats. However, with the help of other coalitions (GSS−SUD−LSV−DHSS, in 2008 and 2012), the party grew to 11 seats and the number of seats won dropped to 1 in 2012. The most difficult coalitions for the DSA was with SDU−BDZS in 2014, where they won 12 seats out of 250. Although the DSA did not have a significant role in the 2014 and 2016 elections, their association with other coalitions has helped them achieve a higher number of seats in the parliament.","The Liberal Democratic Party (Serbia) have seen fluctuations in their number of seats win in the parliamentary elections through the years, with their associations with different coalitions playing a role in this variation. In the 2007 elections, the party win 6 seats while being in coalition with GSS−SDU−LSV−DHSS which increase to 11 seats in 2008 when the party was in coalition with DHSS−SDU. In 2012, the party see a slight increase to 12 seats while being a part of the U-Turn coalition. However, in 2014 the party suffer a significant loss and won no seats while being in coalition with SDU−BDZS. In 2016 there was a revival in number of seats win, 4, as the party was in coalition with SDS−LSV, maintaining its status in opposition.",1,1,1,0
+qtsum_dev_25,"# Portrait Name Term start Term end Other posts
+ 0 1  - Luis Muñoz Marín  1938  1972  Governor
+ 1 2 Rafael Hernández Colón Rafael Hernández Colón  1972  1976  Governor
+ 2 3  Miguel Hernández Agosto  Miguel Hernández Agosto  1976  1984  Secretary of Agriculture Puerto Rico Senator
+ 3 4 Rafael Hernández Colón Rafael Hernández Colón  1984  1992  Governor
+ 4 5  - Victoria Muñoz Mendoza  1992  1994 Puerto Rico Senator
+ 5 6  Héctor Luis Acevedo  Héctor Luis Acevedo  1994  1997  Mayor of San Juan Secretary of State
+ 6 7  Aníbal Acevedo Vilá  Aníbal Acevedo Vilá  1997  1999 Resident Commissioner
+ 7 8  Sila María Calderón  Sila María Calderón  1999  2003  Governor
+ 8 9  Aníbal Acevedo Vilá  Aníbal Acevedo Vilá  2003  2008  Governor
+ 9  10  - Héctor Ferrer Ríos  2008  2011  Puerto Rico Representative
+ 10 11 Alejandro García Padilla Alejandro García Padilla  2011  2015  Governor
+ 11 12  David Bernier  David Bernier  2015  2016  Secretary of State
+ 12 13  - Héctor Ferrer Ríos  2017  2018  Puerto Rico Representative
+ 13 14  - Aníbal José Torres  2018 present Puerto Rico Senate Majority Leader Chief of Staff","The table show that the times of presidents of Popular Democratic Party of Puerto Rico have spanned across a range of decades. From 1938 to 1972, the first term began by Luis Muñoz Marín and lasted for four years. After that, Rafael Hernández Colón began his term from 1984 to 1992, and his term began in 1994. In the 21st century, since José Torres has been the leader of the party, there has been a steady trend in the length of terms for presidents, with the most recent being José Torres who has served from 2018 to 2019.","In Popular Democratic Party of Puerto Rico history times, table show, have a more notice in president terms length trend. More early presidents like Luis Muñoz Marín and Rafael Hernández Colón, they have more long terms (from 16 to 34 years), but now presidents have short terms (from 1 to 4 years). Have an exception is Héctor Ferrer Ríos, he has two not same time terms. Also, some presidents have many jobs in Puerto Rico government, like governor, senator, or secretary, sometimes have together with party president. This may make think that political situation and things inside Popular Democratic Party of Puerto Rico are changing.",1,1,1,0
+qtsum_dev_26,"Team Name  Schools Sports Host Nickname (S)  Colors Enrollment (2013 / 14)
+ 0 Christopher - Zeigler - Royalton Christopher Zeigler - Royalton Football , Track And Field  Christopher Bearcats Lady Cats Blue Orange 412
+ 1 Eldorado - Galatia Eldorado Galatia Cross Country , Golf , Track And Field Eldorado Eagles Purple Gold 461
+ 2 Elverado - Trico Elverado Trico Football Elverado  Falcons Blue Gold 436
+ 3  Fairfield - Cisne  Cisne Fairfield  Wrestling  Fairfield Mules Lady Mules Red Black 549
+ 4  Sesser - Valier - Waltonville  Sesser - Valier Waltonville Girls' Basketball , Track And Field , Volleyball  Sesser - Valier Red Devils  Maroon White 309
+ 5 Sesser - Valier - Waltonville - Woodlawn Sesser - Valier Waltonville Woodlawn Football  Sesser - Valier Red Devils  Maroon White 494
+ 6 Vienna - Goreville Goreville Vienna Football Vienna Eagles Royal Blue Orange 503
+ 7 Zeigler - Royalton - Christopher Christopher Zeigler - Royalton Baseball , Girls' Basketball , Golf , Softball Zeigler - Royalton  Tornadoes Navy Blue White 412","The two schools in the Sesser - Valier - Walterville team are Sesser-Valier and Woodlawn. Sesser-Valier is a multi-sport team that consists of girls' basketball, track and field, volleyball, and football. They are known as the Red Devils in reference to their mascot. Woodlawn is also a multi-sport team, they are also known as the Red Devils in reference to their mascot. This team had an enrollment of 494 students in 2013-14.","The Sesser-Valier-Waltonville Team is made up of two schools: Sesser and Valier Waltonville. This team fields teams in girls’ basketball, track and field, and volleyball. The nickname for the team is Red Devils. The team colors are maroon and white and the total enrollment for 2013/14 was 309 students.",1,0,1,0
+qtsum_dev_27,"No. Year  Name of Elected MLA Party Runner candidate References
+ 0 1 1962  Jagannath Singh  IND  Panna Lal 
+ 1 2 1967 Ramakant Dwivedi  IND  Panna Lal 
+ 2 3 1969  Panna Lal  INC Ramakant Dwivedi 
+ 3 4 1974 Ramakant Dwivedi  BJS  Jagannath Singh 
+ 4 5 1977  Jagannath Singh  INC Rabendra Pal Singh 
+ 5 6 1980 Ram Pyare Pandey  JNP  Achal Singh 
+ 6 7 1985  Achal Singh  INC Ram Pyare Pandey 
+ 7 8 1989  Achal Singh  INC  Ram Singh 
+ 8 9 1991  Abhimanyu Singh  BJP Amarjeet Singh 
+ 9  10 1993 Amarjeet Singh SP  Achal Singh 
+ 10 11 1996 Rajendra Singh Patel  BJP Amarjeet Singh 
+ 11 12 2002 Amarjeet Singh  BSP Sukhdev Prasad Verma 
+ 12 13 2007 Sukhdev Prasad Verma  BJP Rajendra Singh Patel 
+ 13 14 2012 Sukhdev Prasad Verma  BJP Rajendra Singh Patel 
+ 14 15 2017  Karan Singh Patel SP  Rameshwar Dayal","From the table information, we can see that the influence of political parties like Inc, BKD, and BJP in Bindki Assembly constituency has big change based on the candidate who win and the runner-up in every election since 1962. In general, we can see that Inc was the most dominant party in the 1960s and 1970s, followed by BKD and BJP, with Inc being third and third parties. This shows that these parties could give support to whoever was the runner-up in the election. But, we also have to say that the BJP and Independents were often competitors in the years before, with BJP being the second and third parties, in important cases. This shows that the support and influence of these parties in the Bindki Assembly constituency is not always from one specific year or even the third one.","In summary, the Bindki Assembly constituency has experienced a shift in political dynamics since 1962, with the prominence of the Indian National Congress (INC) gradually diminishing over time. The emergence of other political parties like the Bharatiya Kranti Dal (BKD), Janata Party (JNP), Bharatiya Janata Party (BJP), Bahujan Samaj Party (BSP), and Samajwadi Party (SP) has diversified the political landscape, reflecting the changing preferences of the electorate. As of now, the BJP seems to be a strong player in Bindki, but the constituency’s history suggests a tendency for fluctuating party representation. This means that the political scenario in Bindki may continue to evolve in the future as parties vie for influence and power.",0,0,1,1
+qtsum_dev_28,"Heat Place  Athlete Country Time Notes
+ 0  1  1  Ben Fouhy New Zealand 3:26.064 QF
+ 1  1  2  Roland Kökény Hungary 3:27.904 QS
+ 2  1  3 Adam Seroczyński  Poland 3:28.464 QS
+ 3  1  4  Javier Correa Argentina 3:28.492 QS
+ 4  1  5 Róbert Erban  Slovakia 3:30.576 QS
+ 5  1  6  Alan van Coller  South Africa 3:32.516 QS
+ 6  1  7 Jernej Zupancic Regent  Slovenia 3:32.552 QS
+ 7  1  8 Apostolos Papandreou  Greece 3:41.664  
+ 8  1  9 Tony Lespoir  Seychelles 4:17.128  
+ 9  2  1 Tim Brabants Great Britain 3:24.412 QF
+ 10 2  2 Adam van Koeverden  Canada 3:24.984 QS
+ 11 2  3  Roei Yellin  Israel 3:34.036 QS
+ 12 2  4  Andrey Shkiotov  Russia 3:35.708 QS
+ 13 2  5 Andrea Facchin Italy 3:36.492 QS
+ 14 2  6 Simon Faeh Switzerland 3:41.392 QS
+ 15 2  7 Benjamin Lewis United States 3:43.052 QS
+ 16 2  8 Danila Turchin  Uzbekistan 3:48.140  
+ 17 3  1 Eirik Verås Larsen  Norway 3:25.150 QF
+ 18 3  2  Nathan Baggaley Australia 3:29.414 QS
+ 19 3  3  Emanuel Silva  Portugal 3:29.854 QS
+ 20 3  4  Björn Goldschmidt Germany 3:31.310 QS
+ 21 3  5 Sebastian Cuattrin  Brazil 3:36.506 QS
+ 22 3  6 Bâbak Amir-Tahmasseb  France 3:36.882 QS
+ 23 3  7 Romas Petrukanecas Lithuania 3:37.758 QS
+ 24 3  8 Liu Haitao China 3:38.522","A total of 10 athletes participated in the Women's 800m Quarterfinals of the 2008 Summer Olympics. Of these 10 athletes, 8 qualified for the semifinals (QS).","Totally 25 players joined in canoeing race at 2004 Summer Olympics - Men's K-1 1000 meters heats. From these participants, 18 athlete could qualify for semifinals (QS).",1,1,1,1
+qtsum_dev_29,"Rank Lane Name Nationality  Time Notes
+ 0  7 Florent Manaudou  France 21.34  
+ 1  5 Cullen Jones United States 21.54  
+ 2  4  César Cielo  Brazil 21.59  
+ 3 4 6 Bruno Fratus  Brazil 21.61  
+ 4 5 3  Anthony Ervin United States 21.78  
+ 5 6 8 Roland Mark Schoeman  South Africa 21.80  
+ 6 7 2  George Bovell Trinidad and Tobago 21.82  
+ 7 8 1 Eamon Sullivan Australia 21.98","The three quick swimmers in Men's 50 meter freestyle final at 2012 Summer Olympics was Florent Manaudou from France with time of 21.34 seconds, Cullen Jones from the United States with time of 21.54 seconds, and César Cielo from Brazil with time of 21.59 seconds. These athletes get the top three place in event, show very good performance and skill in sport.","The top three fastest swimmers in the Men's 50 metre freestyle final at the 2012 Summer Olympics were Florent Manaudou from France with a time of 21.34 seconds, Cullen Jones from the United States with a time of 21.54 seconds, and César Cielo from Brazil with a time of 21.59 seconds.",0,0,0,0
+qtsum_dev_30,"# Wrestlers Reign Date Days held Location  Event  Notes Ref.
+ 0 1  Ron Zombie  1  August 24, 2001 <0 Meriden, Connecticut Live event  Declared the first ACW Hardcore Champion. 
+ 1 2 Balls Mahoney  1  August 24, 2001 22 Meriden, Connecticut Live event 
+ 2 3  Ron Zombie  2 September 15, 2001  104 Meriden, Connecticut Live event 
+ 3 4  Wrecka  1  December 28, 2001 29 Meriden, Connecticut Live event  This was at an LIWF show. 
+ 4 5  Bull Dredd  1 January 26, 2002 97 Meriden, Connecticut Live event Won the title in a 10-man tag team match with Jason Knight, Balls Mahoney, Fred Curry Jr., and Ron Zombie against Wrecka, Homicide, Low Life Louie, Nick Richards, and Purty Kurty Adonis. 
+ 5 6  Danny Doring  1  May 3, 2002 79 Meriden, Connecticut Live event 
+ 6 7  Ron Zombie  3  July 21, 2002  105 Waterbury, Connecticut Live event 
+ 7 8  Mike E. Milano  1 November 3, 2002 <0 New Britain, Connecticut Live event 
+ 8 8 Jeff Rocker  1 November 3, 2002  182 New Britain, Connecticut Live event Awarded title as a result of The Prowlers defeating Ron Zombie and Jason Knight in a tag team match. 
+ 9 9  Ron Zombie  4  May 4, 2003  120 Waterbury, Connecticut Live event With Jason Knight defeated The Prowlers, who were defending the title on Milano's behalf, in a tag team match. 
+ 10 10 Jamie Pain/Nemesis (co-holders)  1  September 7, 2003  196 Waterbury, Connecticut Live event 
+ 11 11 Avil Graves  1 March 21, 2004  — New Britain, Connecticut Live event ACW holds its last show on March 21, 2004.","The table information for longest reigning champion, according to data given, is Ron Zombie. He win title three times in his career, with first time on August 24, 2001 and second time on September 15, 2001. Also, he won the title in a 10-man tag team match with Jason Knight on May 4, 2003, after he defeated the prowlers, who were defending the title on May 4, 2003.","The longest reigning champion as per the data provided was Jamie Pain/Nemesis (co-holders), with a reign of 196 days. They won the title on September 7, 2003, at a live event in Waterbury, Connecticut.",1,1,0,0
+qtsum_dev_31,"# Date Visitor Score Home Record Site Attendance Box Score
+ 0 1  September 1 Carleton Ravens 33-14  Waterloo Warriors 1-0  Warrior Field, Waterloo 1,955  Recap
+ 1 2 September 13 Carleton Ravens 17-37 McMaster Marauders 1-1  Ron Joyce Stadium, Hamilton 2,150  Recap
+ 2 3 September 20 Ottawa Gee-Gees 31-33  Carleton Ravens 2-1 TD Place Stadium, Ottawa  12,000  Recap
+ 3 4 September 27 Carleton Ravens  3-53 Wilfrid Laurier Golden Hawks 2-2 University Stadium, Waterloo 7,370  Recap
+ 4 5  October 4 Toronto Varsity Blues 32-53  Carleton Ravens 3-2 Keith Harris Stadium, Ottawa 2,500  Recap
+ 5 6 October 10 Carleton Ravens 24-44  Guelph Gryphons 3-3 Alumni Field, Guelph 785  Recap
+ 6 7 October 18 Windsor Lancers 21-18  Carleton Ravens 3-4 Keith Harris Stadium, Ottawa 3,000  Recap
+ 7 8 October 25 Queen's Gaels 37-15  Carleton Ravens 4-4 Keith Harris Stadium, Ottawa 4,000  Recap","The most big audience size recorded during the regular season for the 2014 Ottawa Ravens Football Team was in game three. The attendance for this game was 12,000 at TD Place Stadium in Ottawa.","The biggest audience number in regular season for 2014 Carleton Ravens football team was 12,000 people. This audience come to the game on September 20 when Carleton Ravens play with Ottawa Gee-Gees at TD Place Stadium in Ottawa.",1,0,1,0
+qtsum_dev_32,"Name / Generation Model Frequency Architecture Version Cores Process
+ 0  Godson - 1 (Embedded Cpu) 1 266 Mips32 1 180
+ 1  Godson - 1 (Embedded Cpu)  1A 300 Mips32 1 130
+ 2  Godson - 1 (Embedded Cpu)  1B 200 Mips32 1 130
+ 3  Godson - 2 (Singlecore)  2B 250  Mips - Iii 64 - Bit 1 180
+ 4  Godson - 2 (Singlecore)  2C 450  Mips - Iii 64 - Bit 1 180
+ 5  Godson - 2 (Singlecore)  Stls2E  1000  Mips - Iii 64 - Bit 1  90
+ 6  Godson - 2 (Singlecore)  Stls2F  1200  Mips - Iii 64 - Bit 1  90
+ 7  Godson - 2 (Singlecore)  L2 G 9001000 Mips64 1  65
+ 8  Godson - 2 (Singlecore) L2H  1000 Mips64 1  65
+ 9 Godson - 3 (Multicore) L3A / L2 Gq  1000 Mips64 4  65
+ 10  Godson - 3 (Multicore) L3B  1050 Mips64 8  65
+ 11  Godson - 3 (Multicore) L3C  1500 + Mips64  16  28
+ 12 Godson - T (Manycore)  Godson - T  1000 Mips32  64  28
+ 13 Name / Generation Model Frequency Architecture Version Cores Process","The Godson - T (ManyCore) model is only used for computing statistics and is run on just 28 CPU cores. It is a single-core model which uses the MPIs-III 64-bit architecture and runs on CPU only.","The Godson-T (Manycore) model is a processor which features an architecture version of Mips32, a frequency of 1000 and offers 64 cores. It operates with a process size of 28 nanometers.",1,0,1,0
+qtsum_dev_33,"Date Home Team Score Away Team Venue Crowd Box Score Report
+ 0 31 December  Cairns Taipans 105 - 112  Wollongong Hawks  Cairns Convention Centre 3853 Box Score -
+ 1 31 December  Gold Coast Blaze  103 - 94  Adelaide 36Ers  Gold Coast Convention Centre 2233 Box Score -
+ 2 31 December Townsville Crocodiles  105 - 95 South Dragons Townsville Entertainment Centre 4644 Box Score -
+ 3 2 January  Wollongong Hawks  111 - 94  New Zealand Breakers  Win Entertainment Centre 2175 Box Score -
+ 4 3 January South Dragons 90 - 99  Perth Wildcats Hisense Arena 4069 Box Score -
+ 5 3 January Sydney Spirit 86 - 85  New Zealand Breakers  Whitlam Centre  920 Box Score -
+ 6 4 January  Gold Coast Blaze  88 - 105 Townsville Crocodiles  Gold Coast Convention Centre 2374 Box Score -","The data set from the NBL season between 31 December 2008 and 4 January 2009 includes seven games that had more than 4000 spectators. These games were against the Cairns Taipans, Adelaide 36ers, Townsville Dragons, New Zealand Warriors, Perth Wildcats, and Gold Coast Blaze. In the first game on December 31, the Cairns Taipans lost to the Adelaide 36ers with a box score of 2233. The second game was against the South Dragons at the Townsville Entertainment Centre, which drew a crowd of 4644. The third game was against the New Zealand Warriors at the Gold Coast Convention Centre, which drew a crowd of 2175. The fourth game was against the Gold Coast Blaze and again ended in a loss for the Flames with a box score of 88-105.","The games with more than 4000 spectators on 31 December 2008 and 4 January 2009 are Townsville Crocodiles vs South Dragons and South Dragons vs Perth Wildcats. On 31 December, Townsville Crocodiles faced South Dragons at the Townsville Entertainment Centre with 4644 spectators. The score of the game was 105 to 95 with the Crocodiles coming out on top. On 3 January, South Dragons had a tight match against Perth Wildcats at Hisense Arena which ended 90-99 in favor of Wildcats. There were 4069 spectators in that game.",1,1,1,1
+qtsum_dev_34,"#  Name Took Office Left Office  Party
+ 0 1. Iain MacKay 1978 1981  Liberal
+ 1 2. Tony Penikett 1981 1985  NDP
+ 2 3.  Willard Phelps 1985 1991 Progressive Conservative
+ 3 4. Daniel Lang 1991 1992  Yukon Party**
+ 4 5. Tony Penikett 1992 1995  NDP
+ 5 6.  Piers McDonald 1995 1996  NDP
+ 6 7. John Ostashek 1996 1999  Yukon Party
+ 7 8.  Pat Duncan 1999 2000  Liberal
+ 8 9.  Trevor Harding 2000 2000  NDP
+ 9  10. Eric Fairclough 2001 2002  NDP
+ 10 11.  Todd Hardy 2002 2006  NDP
+ 11 12. Arthur Mitchell 2006 2011  Liberal
+ 12 13.  Liz Hanson 2011 2016  NDP
+ 13 14.  Stacey Hassard 2016  present  Yukon Party","Based on the information from this query, we conclude that the data does not provide any information indicating that the dominant political party in Yukon leaders of opposition over the years is the Yukon Party. The table shows that all the leaders of opposition, except for John Ostashek, were from the Yukon party, indicating that there was a strong Democratic Party (UKDP) dominance in the years.","The data provided in the table does not suggest a clear dominance of a particular political party in the Yukon Leaders of Opposition over the years. The table shows a relatively equal representation among the Liberal party (three leaders), the NDP party (seven leaders), and the Yukon Party (three leaders). An interesting observation, however, is that the position of Leader of Opposition has shifted more frequently between NDP and Liberal leaders in recent years.",0,0,1,0
+qtsum_dev_35,"Game Date  Score Location Time Attendance
+ 0 1 October 18  Florida Marlins – 3, New York Yankees – 2 Yankee Stadium 3:43  55,769
+ 1 2 October 19  Florida Marlins – 1, New York Yankees – 6 Yankee Stadium 2:56  55,750
+ 2 3 October 21  New York Yankees – 6, Florida Marlins – 1 Pro Player Stadium 3:21  65,731
+ 3 4 October 22 New York Yankees – 3, Florida Marlins – 4 (12 innings) Pro Player Stadium 4:03  65,934
+ 4 5 October 23  New York Yankees – 4, Florida Marlins – 6 Pro Player Stadium 3:05  65,975
+ 5 6 October 25  Florida Marlins – 2, New York Yankees – 0 Yankee Stadium 2:57  55,773","The total score for both teams in the series is 10-4. New York Yankees win three of the six games, while Florida Marlins win three of the six games. The game with tied score is in Game 2, New York Yankees win in Game 2, and Game 4, Florida Marlins win in Game 6.","In 2003 World Series, Florida Marlins get total 19 runs, but New York Yankees get 21 runs. Marlins win more games in series, they have four win and Yankees have two win. So, Florida Marlins is winner of 2003 World Series.",1,1,0,0
+qtsum_dev_36,"Round Sel# Player Pos.  College
+ 0  1  19  Vonnie Holliday  DT North Carolina
+ 1  3  90 Jonathan Brown  DE  Tennessee
+ 2  4 121 Roosevelt Blackmon  CB Morris Brown
+ 3  5 150 Corey Bradford  WR  Jackson State
+ 4  6 156 Scott McGarrahan  SS New Mexico
+ 5  6 187  Matt Hasselbeck  QB Boston College
+ 6  7 218 Edwin Watson  RB Purdue","The table show that North Carolina is the college that make first round draft pick of Green Bay Packers in 1998. Vonnie Holliday play as defensive tackle (DT) in this table.","In 1998 NFL draft, Green Bay Packers choose Vonnie Holliday from the University of North Carolina in a first round. Holliday play as defensive tackle in his profession football career.",0,0,0,0
+qtsum_dev_37,"Rank  Name Total area (km2) Total area (mi2) Percentage of national total area
+ 0  1 Nunavut 2,093,190 808,185  21.0%
+ 1  2  Quebec 1,542,056 595,391  15.4%
+ 2  3 Northwest Territories 1,346,106 519,734  13.5%
+ 3  4 Ontario 1,076,395 415,598  10.8%
+ 4  5  British Columbia 944,735 364,764 9.5%
+ 5  6 Alberta 661,848 255,541 6.6%
+ 6  7  Saskatchewan 651,036 251,366 6.5%
+ 7  8  Manitoba 647,797 250,116 6.5%
+ 8  9 Yukon 482,443 186,272 4.8%
+ 9 10 Newfoundland and Labrador 405,212 156,453 4.1%
+ 10  11 New Brunswick  72,908  28,150 0.7%
+ 11  12 Nova Scotia  55,284  21,345 0.6%
+ 12  13  Prince Edward Island 5,660 2,185 0.1%
+ 13 Total  Canada 9,984,670 3,855,103 100.0%","The whole area of British Columbia is 944,735 km2, or 364,764 mi2. In compare, the total area of Alberta is 661,848 km2, or 255,541 mi2, and the total area of Manitoba is 647,797 km2, or 250,116 mi2.","The total area of British Columbia is 944,735 km² (364,764 mi²), which is roughly 9.5% of the national total area, making it the fifth largest province in Canada. Comparatively, Alberta has a total area of 661,848 km² (255,541 mi²) and accounts for 6.6% of the nation's total area, ranking sixth in the country. On the other hand, Manitoba has 647,797 km² (250,116 mi²), which equates to approximately 6.5% of Canada's total area and places it as the eighth largest province. In summary, British Columbia's total area is larger than that of both Alberta and Manitoba, and it is the first largest province among the three.",0,0,0,0
+qtsum_dev_38,"Rank Attendance Date  Stadium Opponent Competition Score
+ 0 1 149,415  17 April 1937 Hampden Park England BHC  3–1
+ 1 2 149,269  15 April 1939 Hampden Park England BHC  1–2
+ 2 3 137,438  25 April 1970 Hampden Park England BHC  0–0
+ 3 4 135,376  10 April 1948 Hampden Park England BHC  0–2
+ 4 5 134,544 3 April 1954 Hampden Park England BHC / WCQG3  2–4
+ 5 6 134,504 5 April 1952 Hampden Park England BHC  1–2
+ 6 7 134,170 1 April 1933 Hampden Park England BHC  2–1
+ 7 8 134,000 24 February 1968 Hampden Park England BHC / ECQG8  1–1
+ 8 9 133,300  15 April 1950 Hampden Park England BHC  0–1
+ 9  10 133,245  11 April 1964 Hampden Park England BHC  1–0","The information from this query is that the highest recorded attendance in a Scotland national team football match took place on 17 April 1937 at Hampden Park, with 149,415 people come. The match was between England and Great Britain, and England emerged victorious with a score of 3-1.","The most high record attendence in a Scotland national team football match was 149,415 peoples. The result of this match was win for Scotland, with final score 3-1.",1,0,1,0
+qtsum_dev_39,"Rank  Name Image Height ft (m) Floors Year  Notes  
+ 0  1  100 North Tampa Tampa Skyline cropped 100 North Tampa.JPG  579 (176)  42 1992 Has been the tallest building in the city since 1992 Tallest building along Florida's Gulf Coast Tallest building constructed in Tampa in the 1990s Also known as the Regions Building  
+ 1  2  Bank of America Plaza -  577 (176)  42 1986 Damaged in a 2002 plane crash Tallest building constructed in Tampa in the 1980s  
+ 2  3  One Tampa City Center -  537 (164)  38 1981  Stood as the tallest building in Florida at the time of its completion, and held that title until 1984 when it was surpassed by the Southeast Financial Center in Miami  
+ 3  4  SunTrust Financial Centre -  525 (160)  36 1992  
+ 4  5  Element  Tampanewcondos.JPG  460 (140)  34 2009 Tallest building constructed in Tampa in the 2000s  
+ 5  6 Park Tower -  458 (140)  36 1972  Tallest building constructed in Tampa in the 1970s Formerly known as the Lykes Building  
+ 6  7  Rivergate Tower -  454 (138)  32 1988  
+ 7 8= Hillsborough County Center 375 (114)  28 1993  
+ 8 8= Sam Gibbons Federal Courthouse -  375 (114)  17 1997  
+ 9 10 SkyPoint -  361 (110)  32 2007  
+ 10 11= Towers of Channelside East -  327 (100)  30 2007  
+ 11 11= Towers of Channelside West -  327 (100)  30 2007  
+ 12  13 Tampa Marriott Waterside - 326 (99)  27 2000  
+ 13  14 Wells Fargo Center  311 (95)  22 1985  Formerly known as the Wachovia Center  
+ 14  15 Franklin Exchange Building  280 (85)  22 1966 Tallest building constructed in Tampa in the 1960s  
+ 15  16 Fifth Third Center  279 (85)  19 1981  Also known as the Southtrust Building  
+ 16  17 SkyHouse Channelside  275 (84)  23 2015  
+ 17  18 The Alagon on Bayshore  273 (83)  23 2006  
+ 18  19 Nine15  262 (80)  23 2017  
+ 19  20 The Channel Club  261 (80)  22 2018  
+ 20  21  The Stovall  255 (78)  22 2001  
+ 21  22 One Mack-Cali Center  252 (77)  21 1983","The data from this table show that One Mack-Cali Center is the tallest structure that was constructed in Tampa in the 1980s. This edifice stand at a height of 252 feet (77 meters) and was constructed in 1983.","Bank of America Plaza is most tall building made in Tampa in the 1980s. This construct stands with height 577 feets (176 meters).",1,0,0,0
+qtsum_dev_40,"No. overall No. in season  Title Directed by  Written by Original air date Prod. code US viewers (millions)
+ 0 111  1 ""Fugitive""  Aaron Lipstadt  David Greenwalt & Jim Kouf January 6, 2017 601 4.49
+ 1 112  2  ""Trust Me Knot"" John Gray  David Greenwalt & Jim Kouf  January 13, 2017 602 4.24
+ 2 113  3 ""Oh Captain, My Captain""  David Giuntoli Thomas Ian Griffith  January 20, 2017 603 4.29
+ 3 114  4  ""El Cuegle""  Carlos Avila Brenna Kouf  January 27, 2017 604 4.28
+ 4 115  5  ""The Seven Year Itch""  Lee Rose Jeff Miller  February 3, 2017 605 4.08
+ 5 116  6 ""Breakfast in Bed"" Julie Herlocker  Kyle McVey February 10, 2017 606 4.00
+ 6 117  7 ""Blind Love""  Aaron Lipstadt Sean Calder February 17, 2017 607 3.92
+ 7 118  8 ""The Son Also Rises""  Peter Werner Todd Milliner & Nick Peet February 24, 2017 608 4.01
+ 8 119  9  ""Tree People""  Jim Kouf Brenna Kouf March 3, 2017 609 4.23
+ 9 120 10  ""Blood Magic""  Janice Cooke Thomas Ian Griffith  March 10, 2017 610 3.95
+ 10  121 11 ""Where the Wild Things Were"" Terrence O'Hara Brenna Kouf  March 17, 2017 611 3.96
+ 11  122 12 ""Zerstörer Shrugged""  Aaron Lipstadt Story by: David Greenwalt & Jim Kouf Teleplay by: Brenna Kouf  March 24, 2017 612 4.14
+ 12  123 13  ""The End"" David Greenwalt  Jim Kouf & David Greenwalt  March 31, 2017 613 4.33","From the table information, we can see there is a fluctuation in the viewership for the episodes aired in January 2017. The first episode, ""Fugitive,"" had 4.49 million viewers, but the second episode, ""Trust Me Knot,"" had 4.24 million viewers. The viewership then increased slightly to 4.29 million for the third episode, ""Oh Captain, My Captain,"" and then decreased to 4.28 million for the fourth episode, ""El Cuegle.""","In January 2017, the watching peoples of Grimm shows went up and down, not only stay one number. The first show in the season, called ""Fugitive,"" on January 6, 2017, have 4.49 million peoples watching. Then next episode, named ""Trust Me Knot"" on January 13, 2017, got fewer peoples watches, it was 4.24 million. But next two shows got more peoples watches again: episode ""Oh Captain, My Captain"" on January 20, 2017, got 4.29 million, and other episode ""El Cuegle"" has 4.28 million peoples watching on January 27, 2017.",0,0,0,0
+qtsum_dev_41,"Tournament  Surface  Week Winner  Finalist  Semifinalists
+ 0 Indian Wells Hard  March 13  Àlex Corretja 6 - 4 , 6 - 4 , 6 - 3 Thomas Enqvist (10) Nicolás Lapentti (8) Mark Philippoussis (12)
+ 1  Key Biscane Hard  March 20 Pete Sampras (2) 6 - 1 , 6 - 7 (2) , 7 - 6 (5) , 7 - 6 (8) Gustavo Kuerten (6) Andre Agassi (1) Lleyton Hewitt (14)
+ 2  Monte Carlo Clay  April 17 Cédric Pioline (8) 6 - 4 , 7 - 6 (3) , 7 - 6 (6)  Dominik Hrbatý  Gastón Gaudio Karim Alami
+ 3 Rome Clay May 8  Magnus Norman (3) 6 - 3 , 4 - 6 , 6 - 4 , 6 - 4 Gustavo Kuerten (4)  Àlex Corretja (10) Lleyton Hewitt (9)
+ 4  Hamburg Clay  May 15  Gustavo Kuerten (5) 6 - 4 , 5 - 7 , 6 - 4 , 5 - 7 , 7 - 6 (3)  Marat Safin (12)  Andrei Pavel (Q) Marcelo Ríos
+ 5  Toronto Hard July 31  Marat Safin (8) 6 - 2 , 6 - 3  Harel Levy (Q)  Jiří Novák Wayne Ferreira
+ 6 Cincinnati Hard  August 7 Thomas Enqvist (7) 7 - 6 (5) , 6 - 4 Tim Henman (15) Arnaud Clément Gustavo Kuerten (4)
+ 7  Stuttgart Carpet (I)  October 30 Wayne Ferreira 7 - 6 (6) , 3 - 6 , 6 - 7 (5) , 7 - 6 (2) , 6 - 2  Lleyton Hewitt (8)  Yevgeny Kafelnikov (6) Sébastien Grosjean
+ 8  Paris Carpet (I) November 13  Marat Safin (2) 3 - 6 , 7 - 6 (7) , 6 - 4 , 3 - 6 , 7 - 6 (8) Mark Philippoussis (13) Gustavo Kuerten (1) Juan Carlos Ferrero (12)
+ 9 Lisbon ( Tmc ) Hard (I) November 23  Gustavo Kuerten 6 - 4 , 6 - 4 , 6 - 4  Andre Agassi Marat Safin Pete Sampras","The table shows the semifinalists of the Monte Carlo tournament were Cédric Pioline and Dominik Hrastý. Cédric Pioline defeated Dominik Hrastý in two sets, 6-4 and 7-6. The surface of the tournament was clay and the finalist was Cédric Pioline.","The semifinalists in the Monte Carlo tournament were Cédric Pioline (8), Dominik Hrbatý, Gastón Gaudio, and Karim Alami. Pioline went on to win the tournament, beating Hrbatý 6-4, 7-6(3), 7-6(6). Gaudio and Alami both fell in their semifinal matches.",1,1,0,0
+qtsum_dev_42,"No. Event  Date  Venue Location Attendance
+ 0 45  WEC 45: Cerrone vs. Ratcliff December 19, 2009 Pearl at The Palms  Las Vegas, Nevada 1,741
+ 1 44  WEC 44: Brown vs. Aldo November 18, 2009 Pearl at The Palms  Las Vegas, Nevada 1,835
+ 2 43 WEC 42: Cerrone vs. Henderson  October 10, 2009  AT&T Center San Antonio, Texas 5,176
+ 3 42 WEC 41: Brown vs. Faber II  August 9, 2009 Hard Rock Hotel and Casino  Las Vegas, Nevada 2,082
+ 4 41  WEC 41: Brown vs. Faber II  June 7, 2009 ARCO Arena Sacramento, California  13,027
+ 5 40 WEC 40: Torres vs. Mizugaki April 5, 2009 UIC Pavilion  Chicago, Illinois 5,257
+ 6 39  WEC 39: Brown vs. Garcia March 1, 2009 American Bank Center  Corpus Christi, Texas 6,100
+ 7 38  WEC 38: Varner vs. Cerrone  January 25, 2009 San Diego Sports Arena  San Diego, California  10,201","The top three events in 2009 with the highest attendance were WEC 41: Brown vs. Faber II, WEC 38: Varner vs. Cerrone, and WEC 39: Brown vs. Garcia. These events took place at ARCO Arena in Sacramento, California, San Diego Sports Arena in San Diego, California, and American Bank Center in Corpus Christi, Texas, respectively.","In 2009, top three event with most people is WEC 41: Brown vs. Faber II at ARCO Arena, Sacramento, California. It has 13,027 peoples. Next is WEC 38: Varner vs. Cerrone at San Diego Sports Arena, San Diego, California. It has 10,201 peoples. Last one is WEC 39: Brown vs. Garcia at American Bank Center, Corpus Christi, Texas. It has 6,100 peoples. These events have popular fighters and big place, so many peoples come.",0,0,0,0
+qtsum_dev_43,"No.  Season Tournament No. of teams in tournament  Start Finish NCAA Champion (number) Champion Conference Champion Record  Championship Site
+ 0  56 2002–03  2003  16  October 4 April 12 Minnesota (5) WCHA (28–8–9)  Buffalo, New York
+ 1  57 2003–04  2004  16  October 3 April 10  Denver (6) WCHA  (27–12–5)  Boston, Massachusetts
+ 2  58 2004–05  2005  16  October 3  April 9  Denver (7) WCHA (32–9–2) Columbus, Ohio
+ 3  59 2005–06  2006  16  October 7  April 8 Wisconsin (6) WCHA  (30–10–3) Milwaukee, Wisconsin
+ 4  60 2006–07  2007  16  October 6  April 7  Michigan State (3) CCHA  (26–13–3)  St. Louis, Missouri
+ 5  61 2007–08  2008  16  October 7 April 12  Boston College (3)  Hockey East  (25–11–8) Denver, Colorado
+ 6  62 2008–09  2009  16 October 10 April 11 Boston University (5)  Hockey East (35–6–4) Washington, D.C.
+ 7  63 2009–10  2010  16  October 8 April 10  Boston College (4)  Hockey East  (29–10–3)  Detroit, Michigan
+ 8  64 2010–11  2011  16  October 2  April 9  Minnesota-Duluth (1) WCHA  (26–10–6)  St. Paul, Minnesota
+ 9  65 2011–12  2012  16  October 1  April 7  Boston College (5)  Hockey East  (33–10–1) Tampa, Florida
+ 10 66 2012–13  2013  16  October 6 April 13  Yale (1) ECAC  (22–12–3) Pittsburgh, Pennsylvania","The table show the starting and finishing dates of the NCAA Division I men's ice hockey tournaments have some changes between 2002 and 2013. From 2002 to 2013, the tournaments start in early October and finish in early April. Similarly, the finish dates have also not same, with the latest finish date being April 13 in 2013. Although these changes are not big, it maybe means that there is a stable trend in the performance of the championship teams during these years.","From 2002 to 2013 year, the begin and end dates of NCAA Division I men ice hockey competition most times keep consistent, only small change. Begin dates usually in first week October, finish dates often happen early to mid-April. This same timing of competition looks no direct connection with how well Championship teams do or who they are. But, can notice in this time, Western Collegiate Hockey Association (WCHA) and Hockey East conferences have strong show in NCAA Champions list. WCHA teams get title five times, Hockey East teams get win four times.",0,0,0,0
+qtsum_dev_44,"State Contestant Age Height (m)  Hometown
+ 0 Aguascalientes Estefanía Herrera García 20  1.78  Aguascalientes
+ 1 Aguascalientes  Gabriela Palacio Díaz De León 21  1.76  Aguascalientes
+ 2  Baja California Nancy Marisol Galaz Piceno 22  1.72 Tijuana
+ 3  Baja California Sur Karen Alicia Higuera Contreras 19  1.82  La Paz
+ 4 Campeche  Michelle Arjona Hernández 18  1.73  Campeche
+ 5 Coahuila  Cecilia Flores Nogueira 23  1.78 Torreón
+ 6  Chiapas  Adriana Grissel Hernández Cáseres 22  1.80  Tecpatán
+ 7  Chihuahua Pamela Olivas Chaparro 23  1.78 Chihuahua
+ 8 Distrito Federal  Lucía Del Cueto Dávalos 23  1.76 Mexico City
+ 9  Durango  Vanessa Crispín Herrera 19  1.70 Gómez Palacio
+ 10  Guanajuato  Helena Estefanía Baca Anaya 19  1.74  León
+ 11  Guerrero  Suslim Patrón Jiménez 20  1.72  Chilpancingo
+ 12 Jalisco Karin Cecilia Ontiveros Meza 22  1.80  Amatitán
+ 13 Jalisco  Eunice Guadalupe Sánchez Valencia 18  1.77 Guadalajara
+ 14 Michoacán Karla Paulina Gutiérrez García 21  1.80 Morelia
+ 15 Morelos Melissa Carolina Torres Ruiz 20  1.72  Cuernavaca
+ 16 Nayarit Ana Priscila Zárate Cortez 18  1.70 Tepic
+ 17  Nuevo León Cynthia Alejandra De la Vega Oates 18  1.80 Monterrey
+ 18  Oaxaca Alejandra Díaz Scherenberg 22  1.69  Oaxaca
+ 19  Puebla  Ana Laura Gallardo Parada 20  1.68  Puebla
+ 20 Querétaro María Perusquía Flores 20  1.73 Querétaro
+ 21 San Luis Potosí Carmen Isabel Hernández Chávez 20  1.78 San Luis Potosi
+ 22 San Luis Potosí Ana Paola Lastras Villaseñor 22  1.76 San Luis Potosi
+ 23 Sinaloa Tiaré Kristal Oliva Elguezabal 18  1.78 Topolobampo
+ 24  Sonora Erika Bernal López 19  1.79  Hermosillo
+ 25  Sonora  Jessica María Lerma Palomares 19  1.79  Huatabampo
+ 26 Tabasco Ana Lilia Lucamendi González 18  1.74  Villahermosa
+ 27  Tamaulipas  Claudia Maribel González Elizondo 22  1.76  Cd. Victoria
+ 28  Veracruz Diana Estefanía Botello Meza 22  1.74  Boca del Río
+ 29 Yucatán María Fernanda López Cuéllar 22  1.76  Mérida
+ 30 Zacatecas Stephanie Ávila Enciso 19  1.73 Jerez","The table obtained from the participant information shows that the age range and heights of contestants from the Nuestra Belleza México 2010 are between 18 and 23 years old. The contestants are from Campeche, Jalisco, Nayarit, Nuevo León, Sinaloa, Tabasco, and Yucatán. The heights are between 1.68 meters and 1.82 meters.","The age range of the contestants from Nuestra Belleza México 2010 is from 18 to 23 years old. About the height, the contestants have difference that is between 1.68 m and 1.82 m.",1,0,1,0
+qtsum_dev_45,"Edition Round  Date Partnering Against Surface Opponents W - L  Result
+ 0  2010 Fed Cup Europe / Africa Group I Rr 3 February 2010  Neuza Silva Croatia Hard Jelena Kostanić Tošić Silvia Njirić  Win 7 - 5 , 6 - 4
+ 1 2011 Fed Cup Europe / Africa Group Ii Rr  4 - 6 May 2011 Maria João Koehler Morocco Clay Fatima El Allami Nadia Lalami  Win 6 - 3 , 6 - 2
+ 2 2011 Fed Cup Europe / Africa Group Ii Rr  4 - 6 May 2011 Maria Joao Koehler Finland Clay Emma Laine Piia Suomalainen  Win 6 - 3 , 6 - 2
+ 3  2012 Fed Cup Europe / Africa Group I Rr 1 - 3 February 2012 Maria Joao Koehler Great Britain Hard Laura Robson Heather Watson Loss 5 - 7 , 0 - 6
+ 4  2012 Fed Cup Europe / Africa Group I Rr 1 - 3 February 2012 Maria Joao Koehler  Israel Hard  Shahar Pe'Er Julia Glushko  Win 6 - 2 , 4 - 6 , 6 - 4
+ 5  2013 Fed Cup Europe / Africa Group I Rr 7 - 9 February 2013 Joana Vale Costa Great Britain Hard Laura Robson Heather Watson Loss 2 - 6 , 1 - 6","The table shows that Michelle Larcher De Brito competed against Great Britain in the Fed Cup Europe/Africa Group I in 2012 and 2013. Her match was played on hard surface against Laura Robson and Heather Watson on 1-3 February 2012, and ultimately ended in a loss for Michelle Larcher De Brito with a score of 5-7, 0-6. In the 2013 match, she and Joana Vale Costa also lost to their opponents 2-6, 1-6.","In 2012 and 2013, Michelle Larcher De Brito played against Great Britain in the Fed Cup Europe/ Africa Group I. In 2012, De Brito formed a partnership with Maria Joao Koehler and went up against Laura Robson and Heather Watson on hard court surface, they ultimately lost the match 5-7 and 0-6. The next year, De Brito teamed up with Joana Vale Costa to face the same opponents on the same surface in Great Britain, and they ended up losing 2-6 and 1-6.",1,0,1,0
+qtsum_dev_46,"Position Name of Greyhound  Breeding Trap Sectional SP Time Trainer
+ 0 1st  Taylors Sky  Westmead Hawk - Rising Angel 1 4.80 7-4f 28.17+  Charlie Lister OBE (Private)
+ 1 2nd  Westmead Guru  Tyrur Ted - Westmead Swift 3 4.84  4-1  28.50 Kelly Findlay (Sittingbourne)
+ 2 3rd  Barefoot Bullet Honcho Classic - Ard Flashc 5 4.80  9-4  28.59 Paul Hennessy (Ireland)
+ 3 4th  Cloheena Cash  Crash - Leahs Ruby 6 4.83 11-1  28.61 Norah McEllistrim (Wimbledon)
+ 4 5th  Razldazl George Kinloch Brae - Razldazl Pearl 4 4.89  7-2  28.82  Dolores Ruth (Ireland)
+ 5 6th Bright Redcliffe Hallucinate - Youlbesolucky 2 4.94 16-1  28.94 John McGoldrick (Private)","The greyhound with the highest odds, Bright Redcliffe, had a time of 4.94 and a time of 28.94, whereas the greyhound with the lowest odds, Taylors Sky, had a time of 4.80 and a time of 28.17. The trainer of Bright Redcliffe was John McGoldrick (Private), while the trainer of Taylors Sky was Charlie Lister O'Brien (Private).","Bright Redcliffe, has highest odds of 16-1, had recorded time of 28.94 and trained by John McGoldrick (Private). In other hand, Taylors Sky, with lowest odds of 7-4f, get the 1st position with faster time of 28.17+ and trained by Charlie Lister OBE (Private).",0,0,0,0
+qtsum_dev_47,"Tournament 2004 2005 2006 2007 2008 2009 2010 2011
+ 0 Grand Slam Tournaments Grand Slam Tournaments Grand Slam Tournaments Grand Slam Tournaments Grand Slam Tournaments Grand Slam Tournaments Grand Slam Tournaments Grand Slam Tournaments Grand Slam Tournaments
+ 1  Australian Open  A 2R 1R 1R 4R 1R Q1  A
+ 2  French Open Q1 2R 1R Q1 2R 1R Q2  A
+ 3  Wimbledon Q2 1R 1R  A 2R 1R  A  A
+ 4  Us Open Q3 1R 1R Q2 1R 1R Q1 Q3
+ 5 Win - Loss  3 - 2  2 - 4  0 - 4  1 - 3  8 - 4  0 - 4  1 - 3  0 - 0
+ 6 Year End Ranking 74 60 90  143  180  140  299  157","Margo Dombowska’s performance at the Australian Open tournament between 2004 and 2011 was fairly consistent. She reached the third round twice, at 2004 and 2005, while reaching the first round twice. From 2006-2008, she failed to qualify for the tournament. In 2009, she managed to get to the first round but could not progress further. In 2010, she reached the second round and held her ground. However, her performance declined in 2011 as she was knocked out in the first round.","Marta Domachowska's performance in the Australian Open between 2004 and 2011 was inconsistent. In 2005 she made it to the second round, but lost in first round in 2006 and 2007. In 2008, she made it to the fourth round but lost in the first round in 2009. Additionally, she was unable to qualify for the tournament in 2010 and 2011.",1,1,1,0
+qtsum_dev_48,"Nos. Year  Title  Role Language Notes Ref.
+ 0  1 2005 Kana Kandaen  Madhan Tamil  
+ 1  2 2006 Parijatham  Surendhar Sreedhar Tamil  
+ 2  3 2007  Mozhi Karthik Tamil  Dubbed in Telugu as Maatarani Mounamidi (2012) 
+ 3  4 2007  Satham Podathey  Ravichandran Tamil Dubbed in Malayalam as Kelkaatha Shabdham 
+ 4  5 2007 Kannamoochi Yenada  Harish Venkatraman Tamil  
+ 5  6 2008 Velli Thirai Saravanan Tamil  Remake of Udayananu Tharam 
+ 6  7 2008 Abhiyum Naanum  Sudhakar Tamil  Cameo appearance 
+ 7  8 2009 Ninaithale Inikkum Shiva Tamil  Remake of Classmates 
+ 8  9 2010  Police Police Ravikanth  Telugu  
+ 9 10 2010 Raavanan Dev Prakash Tamil Dubbed in Telugu as Villain 
+ 10  11 2012 Aiyyaa  Surya Iyer Hindi Nominated: Zee Cine Award for Best Male Debut 
+ 11  12 2013  Aurangzeb ACP Arya Phogat Hindi IBNLive Movie Award for Best Actor in Supporting Role 
+ 12  13 2014  Kavya Thalaivan Gomathinayagam Pillai Tamil  Dubbed in Malayalam as Prathinayakan 
+ 13  14 2017 Naam Shabana  Tony / Mikhail Hindi","From the information in the table, Prithviraj Sukumaran has appeared in three Hindi films. These are ""Aiyyaa"" (2012), ""Arya Phogat"" (2013) and ""Naam Shabana"" (2017). In ""Aiyyaa,"" he played the role of Surya, ""Arya Phogat"" was also the title he played in the film. ""Naam Shabana"" is the title he played in the movie.","Prithviraj Sukumaran have act in three Hindi movies in his working life. In 2012, he play in ""Aiyyaa"" as Surya Iyer and was say for the Zee Cine Award for Best Male Start. Then he do acting in the 2013 movie, ""Aurangzeb,"" as ACP Arya Phogat, make him get IBNLive Movie Award for Best Actor in Helping Role. Most new, he play the character of Tony/Mikhail in the 2017 movie, ""Naam Shabana.""",0,0,0,0
+qtsum_dev_49,"Rank Building Image Height metres / ft Floors Completed
+ 0  1 Portside Tower (Mixed Use) Portside Tower complete.JPG  142 m (466 ft)  32 2014
+ 1  2 1 Thibault Square (Office) 1 Thibault Square.JPG  126 m (413 ft)  32 1972
+ 2  3  Metlife Centre (Office) Metropolitin Building (Cape Town).JPG  119 m (390 ft)  28 1993
+ 3  4 Atterbury House (Office) 119 m (390 ft)  29 1976
+ 4  5 ABSA Centre (Office) -  117 m (384 ft)  34 1970
+ 5  6 Golden Acre (Office) -  108 m (354 ft)  28 1979
+ 6  7 Cape Sun Southern Sun (Office) -  105 m (344 ft)  33 1982
+ 7  8 Triangle House (Residential)  Triangle House (Cape Town).JPG  104 m (341 ft)  26 1993
+ 8  9 Western Cape Provincial Administration Building (Office) 101 m (331 ft)  26 1976
+ 9 10 Civic Centre (Local Government Office) - 98 m (322 ft)  26 1978
+ 10  11  2 Long Street (Hotel) - 93 m (305 ft)  24 1970
+ 11  12  Naspers Centre (Office) - 93 m (305 ft)  22 1962
+ 12  13  Cartwright's Corner (Mixed Use)  92 m (302 ft)  24 1969
+ 13  14  Mutual Building (Residential) - 91 m (299 ft)  18 1939","From the information in table, building with least number of floors is Mutual Building, it has 18 floors. Finish in 1939.","The Mutual Building, one residential building, have least number floors, 18, and finished in 1939.",0,0,0,0
+qtsum_dev_50,"Ranking Single  Artist Release Sales
+ 0 1  ""Yah Yah Yah""  Chage and Aska March 3, 1993 2,408,000
+ 1 2 ""Ai no mama ni Wagamama ni Boku wa Kimi dake o Kizutsukenai"" B'z  March 17, 1993 1,932,000
+ 2 3 ""Road""  The Tra-Bryu  January 21, 1993 1,887,000
+ 3 4  ""Erotica Seven""  Southern All Stars July 21, 1993 1,717,000
+ 4 5  ""Hadashi no Megami"" B'z  June 2, 1993 1,653,000
+ 5 6  ""Makenaide""  Zard  January 27, 1993 1,645,000
+ 6 7 ""Toki no Tobira"" Wands February 26, 1993 1,443,000
+ 7 8  ""Manatsu no Yo no Yume""  Yumi Matsutoya July 26, 1993 1,421,000
+ 8 9  ""Yureru Omoi""  Zard  May 19, 1993 1,396,000
+ 9  10 ""Sekaijū no Dare yori Kitto"" Miho Nakayama & Wands  October 28, 1992 1,326,000
+ 10 11 ""Motto Tsuyoku Dakishimeta Nara"" Wands  July 1, 1993 1,315,000
+ 11 12 ""Konomama Kimidake wo Ubaisaritai""  Deen  March 10, 1993 1,293,000
+ 12 13  ""Kiss Me""  Kyosuke Himuro  December 7, 1992 1,230,000
+ 13 14  ""Ai wo Kataru yori Kuchizuke wo Kawaso"" Wands  April 17, 1993 1,121,000
+ 14 15  ""Natsu no Hi no 1993"" class  April 21, 1993 1,112,000
+ 15 16 ""Go for It!""  Dreams Come True September 9, 1993 1,043,000
+ 16 17  ""Bye for Now"" T-Bolan November 18, 1992 1,005,000
+ 17 18 ""Yasashii Ame"" Kyōko Koizumi  February 3, 1993 958,000","The data in table show best-selling single in Japan in 1993 is ""Yah yah"" by Chage and Aska, it sell 2,408,000 copy, and ""Ai no mama ni wagamama ni boku wa k"" by B'z, they have 1,932,000 and 1,887,000 sales respectively. Other side, top three single are ""Road"" by The Tra-Bryu, it sell 1,887,000 copy, and ""erotica Seven"" by Southern All Stars, it sell 1,717,000 copy.","In 1993, Japan have many best-selling singles, and top three have big difference in sales and artists. The most-selling single is ""Yah Yah Yah"" by Chage and Aska, selling 2,408,000 copies after release . Second most-selling single is ""Ai no mama ni Wagamama ni Boku wa Kimi dake o Kizutsukenai"" by B'z, selling 1,932,000 copies after release . Lastly, the third most-selling single is ""Road"" by The Tra-Bryu, selling 1,887,000 copies after release.",1,1,0,0
