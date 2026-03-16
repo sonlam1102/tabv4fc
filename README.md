@@ -4,6 +4,13 @@
 - Table-to-text generation: QTSUMM and SCIGEN
 - Tabular Fact-checking: TabFACT, SCITAB and PubHealthTAB
 
+## Data availability:
+- QTSUMM: https://huggingface.co/datasets/yale-nlp/QTSumm
+- SCIGEN: https://huggingface.co/datasets/kasnerz/scigen
+- TabFACT: https://github.com/wenhuchen/Table-Fact-Checking
+- SCITAB: https://github.com/XinyuanLu00/SciTab
+- PubHealthTAB: https://github.com/mubasharaak/PubHealthTab
+  
 ## Source codes: 
 - To fine-tune TAPEX for Table-to-text generation: run the bash script fine_tune_tapex.sh
 - To create the generation text that describes the table: run the bash script infer_tapex.sh
