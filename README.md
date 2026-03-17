@@ -17,6 +17,13 @@
 - To perform Tabular Fact-checking by LLMs: run the bash script run_llms.sh
 We provided the sample summarized data in results/summary/ directory. You can used it to run LLMs for tabular Fact-checking.
 
+## Contributors:
+Son Thanh Luu - Japan Advanced Institute of Science and Technology (JAIST)   
+Trung Vo - Japan Advanced Institute of Science and Technology (JAIST)   
+Vu Tran - Japan Advanced Institute of Science and Technology (JAIST) - Advisor     
+Prof. Tomoko Matsui - The Institute of Statistical Mathematics (ISM) - Supervisor    
+Prof. Minh Le Nguyen - Japan Advanced Institute of Science and Technology (JAIST) - Supervisor    
+
 ## Publication: 
 tba 
 
