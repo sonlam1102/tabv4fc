@@ -25,5 +25,17 @@ Prof. Tomoko Matsui - The Institute of Statistical Mathematics (ISM) - Superviso
 Prof. Minh Le Nguyen - Japan Advanced Institute of Science and Technology (JAIST) - Supervisor    
 
 ## Publication: 
-tba 
+https://link.springer.com/article/10.1007/s41060-025-00998-3
+
+```
+@article{Luu2026BoostingLLMFactChecking,
+  author    = {Luu, S. T. and Vo, T. and Tran, V. and others},
+  title     = {Boosting large-language models for fact-checking: leveraging verbalized tabular data as evidence},
+  journal   = {International Journal of Data Science and Analytics},
+  volume    = {22},
+  pages     = {109},
+  year      = {2026},
+  doi       = {10.1007/s41060-025-00998-3}
+}
+``` 
 
