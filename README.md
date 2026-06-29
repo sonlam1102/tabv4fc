@@ -24,6 +24,9 @@ Vu Tran - Japan Advanced Institute of Science and Technology (JAIST) - Advisor
 Prof. Tomoko Matsui - The Institute of Statistical Mathematics (ISM) - Supervisor    
 Prof. Minh Le Nguyen - Japan Advanced Institute of Science and Technology (JAIST) - Supervisor    
 
+## Contact
+Mr. Son Luu (sonlt@uit.edu.vn or son.lt1103@gmail.com)  
+
 ## Publication: 
 https://link.springer.com/article/10.1007/s41060-025-00998-3
 
